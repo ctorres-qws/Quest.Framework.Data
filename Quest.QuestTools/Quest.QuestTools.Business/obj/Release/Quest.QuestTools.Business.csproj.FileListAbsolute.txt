@@ -1,0 +1,14 @@
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.QuestTools.Business.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.QuestTools.Business.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.Framework.Persistance.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\EntityFramework.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.Framework.Data.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.Framework.Persistance.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\Quest.Framework.Persistance.dll.config
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Release\EntityFramework.xml
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Release\Quest.QuestTools.Business.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Release\Quest.QuestTools.Business.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Release\Quest.QuestTools.Business.csproj.CopyComplete
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Release\Quest.QuestTools.Business.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Release\Quest.QuestTools.Business.pdb

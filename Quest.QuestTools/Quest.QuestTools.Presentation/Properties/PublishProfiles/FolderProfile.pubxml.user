@@ -1,0 +1,3263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Quest_Dev\Quest.QuestTools\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="%40%40site.asp">
+      <publishTime>08/27/2020 14:19:30</publishTime>
+    </File>
+    <File Include="%40%40siteTest.asp">
+      <publishTime>08/27/2020 14:19:30</publishTime>
+    </File>
+    <File Include="%40%40siteworks.asp">
+      <publishTime>08/27/2020 14:19:30</publishTime>
+    </File>
+    <File Include="%40Check.asp">
+      <publishTime>08/27/2020 14:19:30</publishTime>
+    </File>
+    <File Include="%40CheckSys.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40common.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40commonTest.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40ReSyncTable.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40revisions.txt">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="%40SyncReport.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40SysInfo.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40SysLog.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40Test.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40TestStuff.asp">
+      <publishTime>08/27/2020 14:19:31</publishTime>
+    </File>
+    <File Include="%40TestTable.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="ActiveDirectoryTest.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="AddFloor1.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="AddFloor2.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="AddFloor2Conf.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="AddFloor3.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="AddFloor3Conf.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="adovbs.inc">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="allbybundle.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="Allbybundle1.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="allbyexbundle.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="Allbyexbundle1.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="allbypo.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="Allbypo1.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="allbypobundle.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="Allbypobundle1.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="AllFloorsReport.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="AllJobsChildConf.asp">
+      <publishTime>08/27/2020 14:19:33</publishTime>
+    </File>
+    <File Include="AllJobsChildConf_2019Nov13.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsChildEnter.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsChildEnter_2019Nov13.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsConf.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsEditConf.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsEditForm.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsEditForm_2019Dec13.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsEnter.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsEnter_2019Dec13.asp">
+      <publishTime>08/27/2020 14:19:34</publishTime>
+    </File>
+    <File Include="AllJobsReport.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AllJobsReportDetail.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AllocationConf.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AllocationForm.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AluminumPriceDurapaint.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AluminumPriceGoreway.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AluminumPriceHorner.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AluminumPriceNashua.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="Awning.asp">
+      <publishTime>08/27/2020 14:19:35</publishTime>
+    </File>
+    <File Include="AwningReport.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="A_IIS.asp">
+      <publishTime>08/27/2020 14:19:32</publishTime>
+    </File>
+    <File Include="BackOrderC.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BackorderReport.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BackorderScan.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BARCODEgmail.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BARCODERTV-Database.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODERTV.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BARCODERTVEmail.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODERTVx.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODESHIFT.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODESHIFTy.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODESTRING.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BarcodeWeek.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BARCODEWEEKLY.asp">
+      <publishTime>08/27/2020 14:19:37</publishTime>
+    </File>
+    <File Include="BarcodeWeeklyStats.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="BarcodeWeeklyStatsshort.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="barcodex.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="barcodex.html">
+      <publishTime>08/29/2020 21:40:09</publishTime>
+    </File>
+    <File Include="barcode_dbpath.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BARCODE_REPORT.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="BARCODE_V.asp">
+      <publishTime>08/27/2020 14:19:36</publishTime>
+    </File>
+    <File Include="bcdraw.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcdraw2.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcgenerate.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcgentest.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcid.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcprint.asp">
+      <publishTime>08/27/2020 14:19:38</publishTime>
+    </File>
+    <File Include="bcprintloop.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="bcprintloop2.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="bigg.gif">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="bigr.gif">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="bigy.gif">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>08/29/2020 23:19:56</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>08/29/2020 23:19:56</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 20:38:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/Quest.Framework.Data.dll">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.Framework.Data.pdb">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.Framework.Persistance.dll">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.Framework.Persistance.dll.config">
+      <publishTime>06/15/2020 02:11:34</publishTime>
+    </File>
+    <File Include="bin/Quest.Framework.Persistance.pdb">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.QuestTools.Business.dll">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.QuestTools.Business.pdb">
+      <publishTime>08/29/2020 23:46:28</publishTime>
+    </File>
+    <File Include="bin/Quest.QuestTools.Presentation.dll">
+      <publishTime>08/29/2020 23:47:04</publishTime>
+    </File>
+    <File Include="bin/Quest.QuestTools.Presentation.pdb">
+      <publishTime>08/29/2020 23:47:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 08:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 08:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 11:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 12:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="bluesquare.gif">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="BrokenGlassAdd.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="BrokenGlassConf.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="BrokenGlassOrder.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="BrokenGlassOrderConf.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="BrokenGlassReport.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="BrokenGlassReportAll.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="coloradd.asp">
+      <publishTime>08/27/2020 14:19:39</publishTime>
+    </File>
+    <File Include="colordel.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="colordelconf.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="colordelform.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="COLORedit.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="coloreditconf.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="coloreditform.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="colorin.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="colorReport.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="colorReportTest.asp">
+      <publishTime>08/27/2020 14:19:40</publishTime>
+    </File>
+    <File Include="complete.jpg">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="confirmscan.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="connect_barcode2.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodega.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodeov.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodep.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodeqc.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodesd.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_barcodesw.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_flashbc.asp">
+      <publishTime>08/27/2020 14:19:41</publishTime>
+    </File>
+    <File Include="connect_scanning.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="connect_tablist.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="CountryLocation.INC">
+      <publishTime>08/27/2020 14:26:50</publishTime>
+    </File>
+    <File Include="custom.css">
+      <publishTime>08/29/2020 21:44:27</publishTime>
+    </File>
+    <File Include="CutFileProgress.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedure1.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedure2.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedure3.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedure4.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedure4BU.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedureGmail.asp">
+      <publishTime>08/27/2020 14:19:42</publishTime>
+    </File>
+    <File Include="CutlistArchiveProcedureMain.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CutlistArchiveProceduretestView.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CutlistView.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewer.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerHardware.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerJUPITER.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerPlastic.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerSelect.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerSelectDate.asp">
+      <publishTime>08/27/2020 14:19:43</publishTime>
+    </File>
+    <File Include="CycleCount_InventoryViewerSheets.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="DailyActivitygmail.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="DailyProductionDatabase.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath-QUESTSQL.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="dbpath.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath2.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DBPATHTEST.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="dbpath_PREF.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath_QuestAccess_QuestSQL.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath_Quest_ArchiveLists.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath_Quest_InventoryReports.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dbpath_secondary.asp">
+      <publishTime>08/27/2020 14:19:44</publishTime>
+    </File>
+    <File Include="dkbluesquare.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="dkgreensquare.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="dkredsquare.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="DoorReport.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStyle.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStylebyJob.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStyleConf.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStyleEditConf.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStyleEditForm.asp">
+      <publishTime>08/27/2020 14:19:45</publishTime>
+    </File>
+    <File Include="DoorStyleEnter.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DoorStyleEnter_Test.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DrillDownReport.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DrillDownReportGlass.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DrillDownReportSaws.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DROPArchiveProcedure2.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DurapaintWIPSENT.asp">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="DurapaintWIPSentConf.ASP">
+      <publishTime>08/27/2020 14:19:46</publishTime>
+    </File>
+    <File Include="emailDeleteDurapaintLog.asp">
+      <publishTime>08/27/2020 14:19:47</publishTime>
+    </File>
+    <File Include="emailETVg.asp">
+      <publishTime>08/27/2020 14:19:47</publishTime>
+    </File>
+    <File Include="EndYear_Report.asp">
+      <publishTime>08/27/2020 14:19:47</publishTime>
+    </File>
+    <File Include="ErrorHandler.asp">
+      <publishTime>08/27/2020 14:19:47</publishTime>
+    </File>
+    <File Include="ETVa.asp">
+      <publishTime>08/27/2020 14:19:47</publishTime>
+    </File>
+    <File Include="ETVa2.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVabylw.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVabyw.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVadet.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVg.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVgbylw.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ETVgbyw.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ExcelHornerInventory.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ExcelInventoryCountHardware.asp">
+      <publishTime>08/27/2020 14:19:48</publishTime>
+    </File>
+    <File Include="ExcelInventoryCountJUPITER.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="ExcelInventoryCountNASHUA.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="ExcelJupiterInventory.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="ExcelNashuaInventory.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="FabDrawing_Manager.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="FindGlass.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="FindGlassReport.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="FindStock.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="FindStockReport.asp">
+      <publishTime>08/27/2020 14:19:49</publishTime>
+    </File>
+    <File Include="fix.html">
+      <publishTime>08/29/2020 21:40:09</publishTime>
+    </File>
+    <File Include="FloorReportAll.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FloorReportFind.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="FORM_ProcessInspect.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_ProcessInspectConf.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_ProcessInspectEnter.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_QA.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_QAConf.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_QAEnter.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_RawMaterial.asp">
+      <publishTime>08/27/2020 14:19:50</publishTime>
+    </File>
+    <File Include="FORM_RawMaterialConf.asp">
+      <publishTime>08/27/2020 14:19:51</publishTime>
+    </File>
+    <File Include="FORM_RawMaterialEnter.asp">
+      <publishTime>08/27/2020 14:19:51</publishTime>
+    </File>
+    <File Include="ga1.asp">
+      <publishTime>08/27/2020 14:19:58</publishTime>
+    </File>
+    <File Include="ga1BU.asp">
+      <publishTime>08/27/2020 14:19:58</publishTime>
+    </File>
+    <File Include="GLASSCONF.asp">
+      <publishTime>08/27/2020 14:19:59</publishTime>
+    </File>
+    <File Include="GlassDelConf.asp">
+      <publishTime>08/27/2020 14:19:59</publishTime>
+    </File>
+    <File Include="glassenter.asp">
+      <publishTime>08/27/2020 14:19:59</publishTime>
+    </File>
+    <File Include="glassenterTable.asp">
+      <publishTime>08/27/2020 14:19:59</publishTime>
+    </File>
+    <File Include="glassenterTable2.asp">
+      <publishTime>08/27/2020 14:19:59</publishTime>
+    </File>
+    <File Include="GLASSEXPORT.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportCommercial.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportPassword.asp">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportPO.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="glassexportPOenter.asp">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportProduction.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="glassExportSelect.asp">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportSelectConf.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportSelectConf_bak.ASP">
+      <publishTime>08/27/2020 14:20:00</publishTime>
+    </File>
+    <File Include="GlassExportService.ASP">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassInjectionConf.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassInjectionForm.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassManage.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassManageConf.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassManageForm.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassManageTimeLineConf.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassManageTimeLineForm.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="glassmarkdone.asp">
+      <publishTime>08/27/2020 14:20:01</publishTime>
+    </File>
+    <File Include="GlassMarkDoneDAN.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="glassmarkdoneScan.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="glassmarkdonetable.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="GlassOptimaCardinalConf.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="glassOptimaCardinalSelect.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="GlassOptimaNote.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="GlassOptimaNoteConf.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="GlassOptimaNoteConf2.asp">
+      <publishTime>08/27/2020 14:20:02</publishTime>
+    </File>
+    <File Include="glassOptimaNoteSelect.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaNoteSelect2.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="GlassOptimaQTConf.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="GlassOptimaQTConf2.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaQTSelect.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaQTSelect2.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="GlassOptimaQuickTempConf.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaQuickTempSelect.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="GlassOptimaSafe.ASP">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaUndo.asp">
+      <publishTime>08/27/2020 14:20:03</publishTime>
+    </File>
+    <File Include="glassOptimaUndoConf.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="glassorderTable.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="GlassProfilebyJob.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="GlassProfilebyJob1.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="GlassProfileConf.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="GlassProfileEnter.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="glassReactivateScan.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="glassReceived.asp">
+      <publishTime>08/27/2020 14:20:04</publishTime>
+    </File>
+    <File Include="glassReceivedConf.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassReceivedExpected.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassReceivedExpectedConf.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassReceivedSelect.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="GlassReceivedSelectConf.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="GlassRemoveConf.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="GlassRemovePOConf.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassreportActive.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassreportActiveBU.asp">
+      <publishTime>08/27/2020 14:20:05</publishTime>
+    </File>
+    <File Include="glassreportCommercial.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportCompleted.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportJob.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="GlassReportJob1.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportJobTime.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportPO.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="GlassReportPO1.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportPOORDER.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportPOTime.asp">
+      <publishTime>08/27/2020 14:20:06</publishTime>
+    </File>
+    <File Include="glassreportProduction.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassreportQT.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="GlassReportQT1.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassreportQTTime.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassreportRecut.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassreportService.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassreportShipped.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassspacers.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="GLASSSpacersCONF.asp">
+      <publishTime>08/27/2020 14:20:07</publishTime>
+    </File>
+    <File Include="glassspacersManage.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="glassspandrel.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="glassSpandrelColourTable.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="GLASSspandrelCONF.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="glassSpandrelManage.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="glassTime.asp">
+      <publishTime>08/27/2020 14:20:08</publishTime>
+    </File>
+    <File Include="glassTimeLine.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="glassTimeLineOld.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassTimeReport.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolsReport.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolsReportgmail.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolViewActive.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolViewCommercial.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolViewCompleted.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolViewOptima.asp">
+      <publishTime>08/27/2020 14:20:09</publishTime>
+    </File>
+    <File Include="GlassToolViewReceived.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassToolViewService.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassToolViewShipped.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassToolViewWait.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassToolViewWaitCommercial.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GLASSTV.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassTVForel.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GlassTVForel1.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GlassTVForel2.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GLASSTVHistory.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GlassTVService.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GlassTVServiceBoth.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GlassTVServiceStatus.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GlassTVWillian.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="GLASSTV_morecode.asp">
+      <publishTime>08/27/2020 14:20:10</publishTime>
+    </File>
+    <File Include="GLASSTypeCONF.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="glasstypes.asp">
+      <publishTime>08/27/2020 14:20:11</publishTime>
+    </File>
+    <File Include="glasstypesManage.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="glassTypesTable.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="GlassUploadConf.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="GlassUploadFile.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="GlazeBackorder.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="glazing2report.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="glazing2reportconf.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="glazing2reportform.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="GlazingImportOldDay.asp">
+      <publishTime>08/27/2020 14:20:12</publishTime>
+    </File>
+    <File Include="GlazingOpenings.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingStats1.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingStats3.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingTodayYesterday.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingVShipping.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingVShippingDate.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GlazingWeekly.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="GmailCheckParent.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="GmailCheckParentTest.asp">
+      <publishTime>08/27/2020 14:20:13</publishTime>
+    </File>
+    <File Include="gmailDeleteDurapaintLog.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="gmailetvg.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="gmailetvgbyw.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="GmailGlassLineScans.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="gmailShiftKitting.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="GmailZipperTest.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="greensquare.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="Gtypes.aspx">
+      <publishTime>08/25/2020 14:19:54</publishTime>
+    </File>
+    <File Include="History.txt">
+      <publishTime>08/29/2020 21:44:31</publishTime>
+    </File>
+    <File Include="hydrobypo.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="hydrobypo1.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="images/full-logo.png">
+      <publishTime>08/24/2020 17:48:10</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>08/26/2020 16:35:22</publishTime>
+    </File>
+    <File Include="images/logo.jpg">
+      <publishTime>08/26/2020 16:29:48</publishTime>
+    </File>
+    <File Include="inc_style.asp">
+      <publishTime>08/27/2020 14:20:14</publishTime>
+    </File>
+    <File Include="index.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>08/29/2020 21:40:09</publishTime>
+    </File>
+    <File Include="indexBU.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="indexCanada.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="indexTexas.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="InventoryArchiveByJob.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryArchiveProcedure.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryArchiveProcedure2.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryJobInactivity.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryperJob.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryReportConf.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryReportConfYearEnd.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryReportCreate.asp">
+      <publishTime>08/27/2020 14:20:15</publishTime>
+    </File>
+    <File Include="InventoryReportCreateYearEnd.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportEXCEL.ASP">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportGlassPrices.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportHardwareEXCEL.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportHardwareSelect.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportHardwareValue.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportPaintPrices.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportPrices%28old%29.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportPrices.asp">
+      <publishTime>08/27/2020 14:20:16</publishTime>
+    </File>
+    <File Include="InventoryReportPrices_Old.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportPurchaseSelect.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportPurchaseValue.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportSelect.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportSelectCostBySupplier.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportShaun.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportValue.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportValue2.asp">
+      <publishTime>08/27/2020 14:20:17</publishTime>
+    </File>
+    <File Include="InventoryReportValueCostBySupplier.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportValueCostBySupplierV3.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportValueCostBySupplier_Custom.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportValueCostBySupplier_US.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportValuePlastic.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportValueSheet.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportWIPSelect.asp">
+      <publishTime>08/27/2020 14:20:18</publishTime>
+    </File>
+    <File Include="InventoryReportWIPValue.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="JB_Report.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="JB_ReportEnter.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="JobsPlanningWeeksTableWeek_Template.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="JobsPlanningWeeksTable_Template.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="JobsPlanningWeeks_Template.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="JR_Approval.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="JR_ApprovalCONF.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="KioskHome.html">
+      <publishTime>08/29/2020 21:40:10</publishTime>
+    </File>
+    <File Include="LabelSheetEnter.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="LabelSheet_v1.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="label_lantek_colour.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="label_lantek_enter.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="label_lantek_v1.asp">
+      <publishTime>08/27/2020 14:20:19</publishTime>
+    </File>
+    <File Include="label_lantek_v1_BU.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="label_lantek_v1_BU2.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="label_lantek_V2.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="Label_Text_print.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="MainPage%28old%29.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="MainPage.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="masteradd.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="MASTERedit.asp">
+      <publishTime>08/27/2020 14:20:20</publishTime>
+    </File>
+    <File Include="mastereditconf.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="mastereditform.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MASTEReditTable.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MasterGlassUsage.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MasterHardwareUsage.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="masterin.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MasterInventoryUsage.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MasterReport.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MaterialPlanningJobEntry.asp">
+      <publishTime>08/27/2020 14:20:21</publishTime>
+    </File>
+    <File Include="MaterialPlanningReports.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="MaterialsPlanningReport_Job.txt">
+      <publishTime>08/29/2020 21:44:31</publishTime>
+    </File>
+    <File Include="MaterialsPlanningReport_Part.txt">
+      <publishTime>08/29/2020 21:44:31</publishTime>
+    </File>
+    <File Include="METRICS.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="METRICSbyjob.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="METRICSbyjobd-jody.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="METRICSbyjobd.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="MichaelArchive.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="Michaelindex.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="MichaelLabel.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="MichaelLabel2.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="Michaeltabletest.asp">
+      <publishTime>08/27/2020 14:20:22</publishTime>
+    </File>
+    <File Include="MichaelTestArchive.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="Michaeltestpage.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="Michaeltestpage2.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="MillAllocationLevels.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="MonthendTables.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="NashuaRacks.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="NashuaRacks2.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="OJDateRange.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="OJonTruck.asp">
+      <publishTime>08/27/2020 14:20:23</publishTime>
+    </File>
+    <File Include="OJonTruckBU.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OpeningsPerJobReport.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimaTV.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimaTVHistory.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimizationLogAnalysis.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="optimizationlogConf.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimizationLogDelConf.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimizationLogEditConf.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimizationLogEditConftest.asp">
+      <publishTime>08/27/2020 14:20:24</publishTime>
+    </File>
+    <File Include="OptimizationLogEditForm.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OptimizationLogForm.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="optimizationLogGlass.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OptimizationLogManage.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OptimizeBackOrder.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OrderList.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OrderListConf.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OrderListEditConf.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="orderListEditForm.asp">
+      <publishTime>08/27/2020 14:20:25</publishTime>
+    </File>
+    <File Include="OrderListEnter.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="OrderReceived.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="ov1.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelLabelsReport.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelPrintLabels.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelReport.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelReportDetails.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelReportJobFloor.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelStylebyJob.asp">
+      <publishTime>08/27/2020 14:20:26</publishTime>
+    </File>
+    <File Include="PanelStylebyJob1.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelStyleConf.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="panelStyleEditconf.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="panelStyleeditform.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelStyleEnter.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelTV.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelTVHistory.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelTVSummary.asp">
+      <publishTime>08/27/2020 14:20:27</publishTime>
+    </File>
+    <File Include="PanelUploadConf.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PanelUploadFile.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PendingStock.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="personicon.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="PickListdelconf.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PickListEdit.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PickListEditConf.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PickListEditForm.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PickListEnter.asp">
+      <publishTime>08/27/2020 14:20:28</publishTime>
+    </File>
+    <File Include="PickListFilter.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PickListFilterView.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PickListSearch.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PickListView.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="plantTV.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="plantTVm.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/29/2020 23:19:53</publishTime>
+    </File>
+    <File Include="PrefInventory.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PrefInventoryExcel.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PREFPOtoWarehouse.asp">
+      <publishTime>08/27/2020 14:20:29</publishTime>
+    </File>
+    <File Include="PrefPOtoWarehouseReceive.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="PrefPOtoWarehouseSplit.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="PrintLabelsDoorWarning.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="PrintLabelsInventory.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="PrintLabelsShipping.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="prodtarget.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="prodtargetconf.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="productionbypo.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="productionbypo1.asp">
+      <publishTime>08/27/2020 14:20:30</publishTime>
+    </File>
+    <File Include="productionlastweektable.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="ProductionSummaryMonthly.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="ProductionsummarymonthlyEmail.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="ProductionSummaryWeekly.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="ProductionsummaryweeklyEmail.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="productiontoday.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="ProductionTodaygmail.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="productiontodaytable.asp">
+      <publishTime>08/27/2020 14:20:31</publishTime>
+    </File>
+    <File Include="productiontodaytableemail.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="productiontodaytableexcel.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="productionweek.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="productionweektable.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="ProHCut.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="ProStop.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="ProVCut.asp">
+      <publishTime>08/27/2020 14:20:32</publishTime>
+    </File>
+    <File Include="QCdbpath.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCGlassPrint.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCGlassPrintLabels.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCglassReport.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCglassReport_2020Jan07.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCInventoryAdd.asp">
+      <publishTime>08/27/2020 14:20:33</publishTime>
+    </File>
+    <File Include="QCInventoryAddTest.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryConf.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryConsumeConf.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryDelConf.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryEdit.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryEditConf.asp">
+      <publishTime>08/27/2020 14:20:34</publishTime>
+    </File>
+    <File Include="QCInventoryEditConf_ARR.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventoryEditForm.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventoryReport.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventoryReportActive.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventoryScanConsume.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventorySelect.asp">
+      <publishTime>08/27/2020 14:20:35</publishTime>
+    </File>
+    <File Include="QCInventoryUpdateConf.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCLitesCounter.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCLitesCounterConf.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCLitesCounterConf_ARR.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCMasterAdd.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCMasterConf.asp">
+      <publishTime>08/27/2020 14:20:36</publishTime>
+    </File>
+    <File Include="QCMasterConf_ARR.asp">
+      <publishTime>08/27/2020 14:20:37</publishTime>
+    </File>
+    <File Include="QCMasterDelConf.asp">
+      <publishTime>08/27/2020 14:20:37</publishTime>
+    </File>
+    <File Include="QCMasterEdit.asp">
+      <publishTime>08/27/2020 14:20:37</publishTime>
+    </File>
+    <File Include="QCMasterEditConf.asp">
+      <publishTime>08/27/2020 14:20:37</publishTime>
+    </File>
+    <File Include="QCMasterEditConf_ARR.asp">
+      <publishTime>08/27/2020 14:20:37</publishTime>
+    </File>
+    <File Include="QCMasterEditForm.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCMasterReport.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCMasterSelect.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCMiscPrint.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCMiscPrintLabels.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCMiscReport.asp">
+      <publishTime>08/27/2020 14:20:38</publishTime>
+    </File>
+    <File Include="QCPasswordDelete.asp">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCReportActiveEXCEL.ASP">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCReportEXCEL.ASP">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCSealantPrint.asp">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCSealantPrintLabels.asp">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCSealantReport.asp">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCSpacerPrint.asp">
+      <publishTime>08/27/2020 14:20:39</publishTime>
+    </File>
+    <File Include="QCSpacerPrintLabels.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCSpacerReport.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCTEST_Butterfly.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCTest_ButterflyConf.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCTest_ButterflyEnter.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCTest_Curing.asp">
+      <publishTime>08/27/2020 14:20:40</publishTime>
+    </File>
+    <File Include="QCTest_CuringConf.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_CuringEnter.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_Desicant.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_DesicantConf.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_DesicantEnter.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_HotMelt.asp">
+      <publishTime>08/27/2020 14:20:41</publishTime>
+    </File>
+    <File Include="QCTest_HotMeltConf.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_HotMeltEnter.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_SuperSpacer.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_SuperSpacerConf.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_SuperSpacerEnter.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_WaterFilter.asp">
+      <publishTime>08/27/2020 14:20:42</publishTime>
+    </File>
+    <File Include="QCTest_WaterFilterConf.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="QCTest_WaterFilterEnter.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="qlogo.jpg">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="qlogoV.jpg">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="recbypo.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="recbypoform.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="redsquare.gif">
+      <publishTime>08/29/2020 21:44:29</publishTime>
+    </File>
+    <File Include="ROD_BOM_finder.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="ROD_BOM_JF.asp">
+      <publishTime>08/27/2020 14:20:43</publishTime>
+    </File>
+    <File Include="ROD_BOM_REPORT.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="RuslanInventory.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="sapabypo.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="sapabypo1.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="ScanAwning.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="ScanBackorder.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanDoor.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanGlassForel.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanGlassForel2.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanGlassForelUnscan.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanGlassSPService.asp">
+      <publishTime>08/27/2020 14:20:45</publishTime>
+    </File>
+    <File Include="ScanGlassSPServiceTest.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="ScanGlassWillian.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="ScanGlassWillianUnscan.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="ScanGlazing.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="scanglazingconf.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="ScanGlazingWindow.asp">
+      <publishTime>08/27/2020 14:20:46</publishTime>
+    </File>
+    <File Include="ScanHBar.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="ScanHbarMatching.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="ScanHome.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ScanHome_Texas.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ScanJR.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="ScanJRMatching.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="scanning.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="ScanPanel.asp">
+      <publishTime>08/27/2020 14:20:47</publishTime>
+    </File>
+    <File Include="ScanPanelAll.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanPanelBEND.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanPanelCUT.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanPanelRECEIVE.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanPanelSHIP.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanPanelUnscan.asp">
+      <publishTime>08/27/2020 14:20:48</publishTime>
+    </File>
+    <File Include="ScanSheets.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="ScanToPrintReport.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="Scan_Endyear.asp">
+      <publishTime>08/27/2020 14:20:44</publishTime>
+    </File>
+    <File Include="ScreenSizeFix.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-notify.js">
+      <publishTime>08/24/2020 17:45:39</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>08/24/2020 17:14:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>08/24/2020 17:14:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>08/24/2020 17:14:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>08/24/2020 17:14:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/24/2020 17:14:11</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>08/24/2020 17:14:09</publishTime>
+    </File>
+    <File Include="Scripts/palette-color-picker.js">
+      <publishTime>08/28/2020 14:03:00</publishTime>
+    </File>
+    <File Include="Scripts/quest.js">
+      <publishTime>08/28/2020 14:45:42</publishTime>
+    </File>
+    <File Include="sd1.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="Sheetadd.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="SheetConf.asp">
+      <publishTime>08/27/2020 14:20:49</publishTime>
+    </File>
+    <File Include="SheetReduce.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="SheetReduceConf.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="SheetReport.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="ShiftHardwareCornerJobFloor.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="ShiftHardwareCornerPostKit.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="ShiftHardwareCornerViewAll.asp">
+      <publishTime>08/27/2020 14:20:50</publishTime>
+    </File>
+    <File Include="ShiftHardwareFrameKit.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareJobFloor.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareKittingReport.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareKittingReportEmail.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareLabel.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareLabelBU.asp">
+      <publishTime>08/27/2020 14:20:51</publishTime>
+    </File>
+    <File Include="ShiftHardwareSashKit.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShiftHardwareView1.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShiftHardwareViewAll.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShipFloorClosed.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShipFloorOpen.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShipFloorSearch.asp">
+      <publishTime>08/27/2020 14:20:52</publishTime>
+    </File>
+    <File Include="ShipFloorViewer.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShipHome.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ShipHomeManager.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ShippingHome.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ShippingHomeOld.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="ShippingHomeTest.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="ShippingHome_Texas.html">
+      <publishTime>08/29/2020 21:40:11</publishTime>
+    </File>
+    <File Include="ShippingOtherLabelEnter.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShippingOtherLabel_v1.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShippingReportClosed.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShippingReportJob.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShippingReportJob1.asp">
+      <publishTime>08/27/2020 14:20:53</publishTime>
+    </File>
+    <File Include="ShippingReportOpen.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingScanHomeTest.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="ShippingTruckClose.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseConf.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseConfTest.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseGmail.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseGmailTest.asp">
+      <publishTime>08/27/2020 14:20:54</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseReport.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseReportBU.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="shippingtruckcloseresport.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCloseTest.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCompare.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCompare1.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCompareBACKUP.asp">
+      <publishTime>08/27/2020 14:20:55</publishTime>
+    </File>
+    <File Include="ShippingTruckCompareEnter.asp">
+      <publishTime>08/27/2020 14:20:56</publishTime>
+    </File>
+    <File Include="ShippingTruckEdit.asp">
+      <publishTime>08/27/2020 14:20:56</publishTime>
+    </File>
+    <File Include="ShippingTruckEditConf.asp">
+      <publishTime>08/27/2020 14:20:56</publishTime>
+    </File>
+    <File Include="ShippingTruckEditConfTest.asp">
+      <publishTime>08/27/2020 14:20:56</publishTime>
+    </File>
+    <File Include="ShippingTruckEditForm.asp">
+      <publishTime>08/27/2020 14:20:56</publishTime>
+    </File>
+    <File Include="ShippingTruckEditFormTest.asp">
+      <publishTime>08/27/2020 14:20:57</publishTime>
+    </File>
+    <File Include="ShippingTruckEditTest.asp">
+      <publishTime>08/27/2020 14:20:57</publishTime>
+    </File>
+    <File Include="ShippingTruckFullReport.asp">
+      <publishTime>08/27/2020 14:20:57</publishTime>
+    </File>
+    <File Include="ShippingTruckHistory.asp">
+      <publishTime>08/27/2020 14:20:57</publishTime>
+    </File>
+    <File Include="ShippingTruckOpen.asp">
+      <publishTime>08/27/2020 14:20:57</publishTime>
+    </File>
+    <File Include="ShippingTruckOpenConf.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckOpenConfTest.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckOpenTest.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckReopen.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckReOpenConf.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckReOpenConfTest.asp">
+      <publishTime>08/27/2020 14:20:58</publishTime>
+    </File>
+    <File Include="ShippingTruckReopenTest.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckScan.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckScanTest.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckScanTest20190625.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckView.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckViewEnter.asp">
+      <publishTime>08/27/2020 14:20:59</publishTime>
+    </File>
+    <File Include="ShippingTruckViewer.asp">
+      <publishTime>08/27/2020 14:21:00</publishTime>
+    </File>
+    <File Include="ShippingTruckViewerExcel.asp">
+      <publishTime>08/27/2020 14:21:00</publishTime>
+    </File>
+    <File Include="ShipReportClosed.asp">
+      <publishTime>08/27/2020 14:21:00</publishTime>
+    </File>
+    <File Include="ShipReportClosedExcel.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipReportOpen.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipTruckClose.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipTruckCloseConf.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipTruckCloseConfMichelle.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipTruckCloseGmail.asp">
+      <publishTime>08/27/2020 14:21:01</publishTime>
+    </File>
+    <File Include="ShipTruckCloseGmailMichelle.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckCloseMichelle.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckDeleteList.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckEdit.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckEditConf.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckEditForm.asp">
+      <publishTime>08/27/2020 14:21:02</publishTime>
+    </File>
+    <File Include="ShipTruckMonitor.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckOpen.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckOpen2.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckOpenConf.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckOpenConf2.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckOpenConfPrint.asp">
+      <publishTime>08/27/2020 14:21:03</publishTime>
+    </File>
+    <File Include="ShipTruckReopen.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckReOpenConf.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckScan.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckScanDelete.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckScanDeleteConf.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckScanManager.asp">
+      <publishTime>08/27/2020 14:21:04</publishTime>
+    </File>
+    <File Include="ShipTruckViewer.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="ShipTruckViewerBU.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="ShipTruckViewerExcel.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="ShipTruckViewerGmail.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="ShipTruckViewerGmailMichelle.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="shnew.asp">
+      <publishTime>08/27/2020 14:21:05</publishTime>
+    </File>
+    <File Include="shrep.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shrepb.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shreport.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shreportb.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shscan 2 or more boxes idea.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shscan.asp">
+      <publishTime>08/27/2020 14:21:06</publishTime>
+    </File>
+    <File Include="shscan2.asp">
+      <publishTime>08/27/2020 14:21:07</publishTime>
+    </File>
+    <File Include="shscanmulti.asp">
+      <publishTime>08/27/2020 14:21:07</publishTime>
+    </File>
+    <File Include="simple.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="skidadd.asp">
+      <publishTime>08/27/2020 14:21:07</publishTime>
+    </File>
+    <File Include="skiddelete.asp">
+      <publishTime>08/27/2020 14:21:07</publishTime>
+    </File>
+    <File Include="Skidflush.asp">
+      <publishTime>08/27/2020 14:21:07</publishTime>
+    </File>
+    <File Include="SkidPrint.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="skidremove.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="SkidReport.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="SkidSearch.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="skidSearchResults.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="SkidSelect.asp">
+      <publishTime>08/27/2020 14:21:08</publishTime>
+    </File>
+    <File Include="SkidUnflush.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotGlassSelect.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotGlassValue.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotGlassValueOld.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotGlassValueTest.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotHARDWARESelect.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotHardwareValue.asp">
+      <publishTime>08/27/2020 14:21:09</publishTime>
+    </File>
+    <File Include="SnapshotHardwareValueDiff.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SnapshotPlasticSelect.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SnapshotPlasticValue.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SpandrelcolorReport.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SPServiceReport.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SQFTPerJobFloorReport.asp">
+      <publishTime>08/27/2020 14:21:10</publishTime>
+    </File>
+    <File Include="SQFTPerJobFloorReportExcel.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport2013.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport2014.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport2015.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport2016.asp">
+      <publishTime>08/27/2020 14:21:11</publishTime>
+    </File>
+    <File Include="SQFTReport2017.asp">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="SQFTReport2018.asp">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="SQFTReportSearch.asp">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="SQLEXCEL.ASP">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="SQLvalue.asp">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="stock.asp">
+      <publishTime>08/27/2020 14:21:12</publishTime>
+    </File>
+    <File Include="stock2.asp">
+      <publishTime>08/27/2020 14:21:13</publishTime>
+    </File>
+    <File Include="stockbcscan.asp">
+      <publishTime>08/27/2020 14:21:13</publishTime>
+    </File>
+    <File Include="stockbcx.asp">
+      <publishTime>08/27/2020 14:21:13</publishTime>
+    </File>
+    <File Include="stockbi.asp">
+      <publishTime>08/27/2020 14:21:13</publishTime>
+    </File>
+    <File Include="stockbu.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbyaisle.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbyaisleM.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbyaisleN.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbyaislePrep.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbycolor.asp">
+      <publishTime>08/27/2020 14:21:14</publishTime>
+    </File>
+    <File Include="stockbyColorCodeSheet.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbycolorPrep.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbycolorSHEET.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbycolorTable.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbycolorTableExcel%28old%29.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbycolorTableExcel.asp">
+      <publishTime>08/27/2020 14:21:15</publishTime>
+    </File>
+    <File Include="stockbydie.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="stockbydiebu.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="stockbydieDH.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="stockbydieDHTable.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="stockbydieDurapaint.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="stockbydieDurapaintTable.asp">
+      <publishTime>08/27/2020 14:21:16</publishTime>
+    </File>
+    <File Include="StockbyDieHorner.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="stockbydieHornerTable.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="stockbydieTable.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="StockbyDieTilton.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="stockbydieTiltonTable.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="StockbyDieTorbram.asp">
+      <publishTime>08/27/2020 14:21:17</publishTime>
+    </File>
+    <File Include="stockbydieTorbramTable.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbypendingdate.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbypendingdate1.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbypic.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbypo.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbypo1.asp">
+      <publishTime>08/27/2020 14:21:18</publishTime>
+    </File>
+    <File Include="stockbyrack.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2M.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2N.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2Prep.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2table.asp">
+      <publishTime>08/27/2020 14:21:19</publishTime>
+    </File>
+    <File Include="stockbyrack2tableM.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbyrack2tableN.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbyrackedit.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbyrackeditconf.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbyrackeditflush.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbywarehouseTable.asp">
+      <publishTime>08/27/2020 14:21:20</publishTime>
+    </File>
+    <File Include="stockbywarehouseTableTemp.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockcolorALL.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockcolorcodelistSHEET.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockcolorlist.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockcolorlistPrep.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockcolorlistSHEET.asp">
+      <publishTime>08/27/2020 14:21:21</publishTime>
+    </File>
+    <File Include="stockdel.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockdelconf.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockdelform.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockdet.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockedit.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockeditcolour.asp">
+      <publishTime>08/27/2020 14:21:22</publishTime>
+    </File>
+    <File Include="stockeditcolourcode.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="stockeditcolourTable.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="stockeditconf.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="stockeditform.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="StockEditMill.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="stockgbybundle.asp">
+      <publishTime>08/27/2020 14:21:23</publishTime>
+    </File>
+    <File Include="stockgbybundle1.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockgbynopo.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockgbypo.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockgbypo1.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockhydro.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockin.asp">
+      <publishTime>08/27/2020 14:21:24</publishTime>
+    </File>
+    <File Include="stockintest.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="StockLengthDrillDown.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="STOCKLevels.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="STOCKLevelsbyC.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="STOCKLevelsDH.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="STOCKLevelsDH_Old.asp">
+      <publishTime>08/27/2020 14:21:25</publishTime>
+    </File>
+    <File Include="STOCKLevelsDurapaint.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsHorner.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsMill.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsMilvan.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsNew.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummary.asp">
+      <publishTime>08/27/2020 14:21:26</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryCCode.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryCCodeBU.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryCCodeExcel.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryEX.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryExcel.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummaryPL.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummarySH-old.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="STOCKLevelsSummarySH.asp">
+      <publishTime>08/27/2020 14:21:27</publishTime>
+    </File>
+    <File Include="STOCKLevelsTilton.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="STOCKLevelsTorbram.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="STOCKLevelsTotal.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="StocklevelsWarehouse.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="StockLevelsWarehouse1.asp">
+      <publishTime>08/27/2020 14:21:28</publishTime>
+    </File>
+    <File Include="STOCKLevelsWhite.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stockMOVEconf.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stocknewdie.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stockoldReport.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stockoldReportG.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stockoldReportN.asp">
+      <publishTime>08/27/2020 14:21:29</publishTime>
+    </File>
+    <File Include="stockother.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="stockpending.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="stockpendingflush.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="stockpendingNew.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="stockpendingtable.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="stockproductionday1.asp">
+      <publishTime>08/27/2020 14:21:30</publishTime>
+    </File>
+    <File Include="STOCKREPORT.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="STOCKREPORT2.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="StockReportPlastic.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="StockReportPrepMaterial.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="STOCKREPORTQ12013.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="STOCKREPORTScrap.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="STOCKREPORTSCRAPDEC.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="STOCKREPORTSCRAPNOV.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="StockReportSheet.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="STOCKREPORT_HARDWARE.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="StockReport_New.asp">
+      <publishTime>08/27/2020 14:21:31</publishTime>
+    </File>
+    <File Include="stocksapa.asp">
+      <publishTime>08/27/2020 14:21:32</publishTime>
+    </File>
+    <File Include="StockSelect.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="StockSelectTemp.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="stockStatusCC.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="stockstatusEmail.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="stockStatusMW.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="stockStatusMW_Hardware.asp">
+      <publishTime>08/27/2020 14:21:33</publishTime>
+    </File>
+    <File Include="stockStatusTable.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stockTemp.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stocktoday.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stocktodayEmail.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stocktodaytable.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stockweek.asp">
+      <publishTime>08/27/2020 14:21:34</publishTime>
+    </File>
+    <File Include="stockweektable.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>08/29/2020 21:44:27</publishTime>
+    </File>
+    <File Include="stylePopUp.css">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="styles/loading.css">
+      <publishTime>08/26/2020 16:27:14</publishTime>
+    </File>
+    <File Include="styles/palette-color-picker.css">
+      <publishTime>08/24/2020 17:47:02</publishTime>
+    </File>
+    <File Include="styles/questStyle.css">
+      <publishTime>08/27/2020 12:22:16</publishTime>
+    </File>
+    <File Include="styles/questTables.css">
+      <publishTime>08/27/2020 09:39:17</publishTime>
+    </File>
+    <File Include="styles/style.css">
+      <publishTime>08/25/2020 10:10:14</publishTime>
+    </File>
+    <File Include="StyleStudy.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="style_custom.css">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="submit.gif">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="supp_report.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="sw1.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="table-job.png">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="table-zipper.png">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="te.css">
+      <publishTime>08/29/2020 21:44:28</publishTime>
+    </File>
+    <File Include="temp1.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="Tempered.jpg">
+      <publishTime>08/29/2020 21:44:30</publishTime>
+    </File>
+    <File Include="Temp_DurapaintWIP.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="test.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="test.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="testcsv.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="TestEmail.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="testflash.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="testflash.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="testflash2.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="testflash2.html">
+      <publishTime>08/29/2020 21:40:12</publishTime>
+    </File>
+    <File Include="TestingAccuracyConf.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="TestingAccuracyForm.asp">
+      <publishTime>08/27/2020 14:21:38</publishTime>
+    </File>
+    <File Include="TestingAccuracyReport.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="testini.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="testShaun.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="Test_Console.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="TexasValueExtrusion.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="TexasValueExtrusionList.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="TexasValueHardware.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="TexasValueHardwareList.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="TEXAS_dbpath.asp">
+      <publishTime>08/27/2020 14:21:39</publishTime>
+    </File>
+    <File Include="te_config copy.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="te_config.asp">
+      <publishTime>08/27/2020 14:21:35</publishTime>
+    </File>
+    <File Include="te_config1.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_config2.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_footer.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_header.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_includes.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_includes1.asp">
+      <publishTime>08/27/2020 14:21:36</publishTime>
+    </File>
+    <File Include="te_includes2.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="te_logout.asp">
+      <publishTime>08/27/2020 14:21:37</publishTime>
+    </File>
+    <File Include="TodayAndYesterday.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="TorbramReportValue.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="txa7.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="VerticalMachineReportDaily.asp">
+      <publishTime>08/27/2020 14:21:40</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/27/2020 11:55:20</publishTime>
+    </File>
+    <File Include="Views/Shipping/ShippingLabelColor.cshtml">
+      <publishTime>08/28/2020 15:31:04</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/24/2020 17:22:20</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/24/2020 17:14:00</publishTime>
+    </File>
+    <File Include="warehousebypo.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="warehousebypo1.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="WarGamesLabelPrint.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/29/2020 23:46:29</publishTime>
+    </File>
+    <File Include="WhiteStockLevels.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="WindowInjectionConf.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="WindowInjectionForm.asp">
+      <publishTime>08/27/2020 14:21:41</publishTime>
+    </File>
+    <File Include="WindowRemakeConf.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WindowRemakeEditConf.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WindowRemakeEditForm.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WindowRemakeEnter.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WindowRemakeReport.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WIPperJob.asp">
+      <publishTime>08/27/2020 14:21:42</publishTime>
+    </File>
+    <File Include="WIPperJob1.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xa7.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowprod-restored.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="xwindowprod.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowprodBU.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowprodgmail.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowprodnew.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowprodReport.asp">
+      <publishTime>08/27/2020 14:21:43</publishTime>
+    </File>
+    <File Include="xwindowREV.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="xwindowREVold.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="xwindowSummary.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="xWindowSummaryEnter.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="ZipperActiveView.asp">
+      <publishTime>08/27/2020 14:21:44</publishTime>
+    </File>
+    <File Include="zipperBlueReport.asp">
+      <publishTime>08/27/2020 14:21:45</publishTime>
+    </File>
+    <File Include="ZipperCompletedView.asp">
+      <publishTime>08/27/2020 14:21:45</publishTime>
+    </File>
+    <File Include="zipperConf.asp">
+      <publishTime>08/27/2020 14:21:45</publishTime>
+    </File>
+    <File Include="ZipperEnter.asp">
+      <publishTime>08/27/2020 14:21:45</publishTime>
+    </File>
+    <File Include="zipperRedReport.asp">
+      <publishTime>08/27/2020 14:21:46</publishTime>
+    </File>
+    <File Include="zipperReport.asp">
+      <publishTime>08/27/2020 14:21:46</publishTime>
+    </File>
+    <File Include="ZipperReportHistory.asp">
+      <publishTime>08/27/2020 14:21:46</publishTime>
+    </File>
+    <File Include="ZipperShearTestReport.asp">
+      <publishTime>08/27/2020 14:21:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

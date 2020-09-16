@@ -1,0 +1,20 @@
+﻿.csTable tr:nth-child(odd) {
+    background-color: #eaeaea;
+    color: #0;
+}
+
+.csTable {
+    border: 1px solid #cccccc;
+}
+
+    .csTable tr:nth-child(even) {
+        background-color: #fff;
+        color: #0;
+    }
+
+    .csTable td, .csTable th {
+        padding-right: 75px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 10px;
+    }

@@ -1,0 +1,17 @@
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\TaskExec.exe.config
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\TaskExec.exe
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\TaskExec.pdb
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.Framework.Persistance.dll
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.ScanToPrint.Business.dll
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.ScanToPrint.Data.dll
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\EntityFramework.dll
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.Framework.Persistance.pdb
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.Framework.Persistance.dll.config
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.ScanToPrint.Business.pdb
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\Quest.ScanToPrint.Data.pdb
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\bin\Debug\EntityFramework.xml
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\obj\Debug\TaskExec.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\obj\Debug\TaskExec.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\obj\Debug\TaskExec.csproj.CopyComplete
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\obj\Debug\TaskExec.exe
+C:\Quest_Dev\Quest.ScanToPrint\TaskExec\TaskExec\obj\Debug\TaskExec.pdb

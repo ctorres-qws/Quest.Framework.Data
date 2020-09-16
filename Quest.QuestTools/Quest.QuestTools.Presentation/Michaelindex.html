@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quest Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="icon" type="image/png" href="../iui/iui-favicon.png">
+  <link rel="apple-touch-icon" href="../iui/questlogo.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="../iui/iui.css" type="text/css" />
+  <link rel="stylesheet" title="Default" href="../iui/t/default/default-theme.css"  type="text/css"/>
+  <link rel="stylesheet" href="../css/iui-panel-list.css" type="text/css" />
+  <script type="application/x-javascript" src="../iui/iui.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8634743-10'], ['_trackPageview']);
+  </script>
+
+  <script type="text/javascript">
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+
+</head>
+<body>
+    <p>&nbsp;</p>
+    <div class="toolbar">
+    <h1 id="pageTitle"></h1>
+        <a id="backButton" class="button"  href="back.html"></a>
+        
+<!--        USE THIS TO PUT ON PAGES LIKE XA7.ASP ETC, NOT ON THIS PAGE-->
+        <!--<a class="button leftButton" type="cancel" href="demos.html">Demos</a>-->
+  
+    </div>
+<ul id="home" title="Quest Tools" selected="true">
+	<li><a href="#Scan">Scan Tools</a></li>
+	<li><a href="#Kiosk">Kiosk Tools</a></li>
+	<li><a href="#Inv">Inventory</a></li>
+    <li><a href="#Report">Reports</a></li>
+    <li><a href="#Backorder">Backorder Controls</a></li>
+	<li><a href="#QC">Quality Control Tools</a></li>
+</ul>
+
+<ul id="Scan" title="Scaning Tools">
+	<p> Each of these will be its own sub Menu to allow for simple manipulation and scanning</p>
+	<li><a href="#" target="_self">Panels</a></li>
+	<li><a href="#" target="_self">Glass Line</a></li>
+	<li><a href="#" target="_self">Doors</a></li>
+	<li><a href="#" target="_self">Windows</a></li>
+	<li><a href="#" target="_self">Skids</a></li>
+	<li><a href="#" target="_self">Trucks / Shipping</a></li>
+		
+</ul>
+
+<ul id="Kiosk" title="Kiosk Tools">
+	<li class="group">Print Labels</li>
+		<li><a href="#" target="_self">Print Window Labels (All recent)</a></li>
+		<li><a href="#" target="_self">Print Panel Labels</a></li>
+		<li><a href="#" target="_self">Print Accessory Labels</a></li>
+		<li><a href="#" target="_self">Print Door Warnings</a></li>
+	<li class="group">Search Inventory</li>
+		<li><a href="#" target="_self">Find Glass</a></li>
+		<li><a href="#" target="_self">Find Windows</a></li>
+		<li><a href="#" target="_self">Find Accessories</a></li>
+		<li><a href="#" target="_self">Search Skids</a></li>
+		<li><a href="#" target="_self">Search Trucks</a></li>
+</ul>
+
+
+
+<ul id="Report" title="Reports">
+    <li class="group">Dashboards</li>
+		<li><a href="barcodertv.asp" target="_self">Window Production</a></li>
+		<li><a href="xwindowprod.asp" target="_self">Job View</a></li>
+    <li class="group">Shift Reports</li>
+        <li><a href="planttvm.asp" target="_self">PlantTV</a></li>
+		<li><a href="barcodeweekly.asp" target="_self">Weekly Window Production </a></li>
+		<li><a href="metrics.asp" target="_self">This Week Detailed Report </a></li>
+        <li><a href="barcodeshift.asp" target="_self">Day Night Weekly</a></li>
+        <li><a href="barcodeshifty.asp" target="_self">Day Night Yesterday</a></li>
+		<li><a href="glasstv.asp" target="_self">Glass Production</a></li>
+    <li class="group">Labour Reports</li>
+		<li><a href="etvg.asp" target="_self">Glazing by Employee Today</a></li>
+		<li><a href="etvgbyw.asp" target="_self">Glazing by Employee This Week</a></li>
+		<li><a href="etvgbylw.asp" target="_self">Glazing by Employee Last Week</a></li>
+		<li><a href="etva.asp" target="_self">Assembly by Employee Today</a></li>
+		<li><a href="etvabyw.asp" target="_self">Assembly by Employee This Week</a></li>
+		<li><a href="etvabylw.asp" target="_self">Assembly by Employee Last Week</a></li>
+    <li class="group">_</li>
+        <li><a href="prodtarget.asp" target="_self">Production Targets</a></li>
+		<li><a href="shrepb.asp" target="_self">Shipping</a></li>
+		<li><a href="BOREPORT.asp" target="_self">Back Order</a></li>
+		<li><a href="bcgentest.asp" target="_self">Barcode Sample</a></li>	
+</ul>
+
+
+
+
+	<ul id="ShipKiosk" title="Shipping Kiosk Tools">
+		<li class="group">Print Labels</li>
+			<li><a href="ShippingItemAdd.asp" target="_self">Create a New Accessory and Print Label</a></li>
+			<li><a href="PrintLabelsShipping.asp" target="_self">Print Labels for Recently Glazed Windows </a></li>
+		<li class="group">Search</li>
+			<li><a href="ShippingTruckSearch.asp" target="_self">Search list by Shipping Truck</a></li>
+			<li><a href="ShippingItemSearch.asp" target="_self">Search list by Job Floor</a></li>
+	</ul>
+	<ul id="ShipScan" title="Shipping Scan Tools">
+		<li class="group">Trucks</li>
+			<li><a href="ShippingTruckOpen.asp" target="_self">Open Truck</a></li>
+			<li><a href="ShippingTruckScan.asp" target="_self">Scan Items to Truck</a></li>
+	</ul>
+<!--
+Shipping Admin on Different page
+-->
+	
+<!-- Single page version of Shipping - OLD	
+		<li class="group">Label Creation of New Items</li>
+			<li><a href="ShippingItemAdd.asp" target="_self">Accessories - Add a New Item</a></li>
+			<li><a href="PrintLabelsShipping.asp" target="_self">Glazed Windows - Adds Windows </a></li>
+		<li class="group">Shipping </li>	
+			<li><a href="ShippingTruckOpen.asp" target="_self">Open Truck</a></li>
+			<li><a href="ShippingTruckScan.asp" target="_self">Scan Items to Truck</a></li>
+			<li><a href="ShippingTruckClose.asp" target="_self">Close Truck</a></li>		
+		<li class="group">View/Search Manifests</li>	
+			<li><a href="ShippingTruckView.asp" target="_self">View All Trucks</a></li>
+			<li><a href="ShippingItemView.asp" target="_self">View Shipping List by Truck</a></li>
+			<li><a href="ShippingItemViewNoTruck.asp" target="_self">View Shipping List Unassigned</a></li>
+			<li><a href="ShippingTruckSearch.asp" target="_self">Search list by Shipping Truck</a></li>
+			<li><a href="ShippingItemSearch.asp" target="_self">Search list by Job Floor</a></li>
+	<li class="group">Maintenance</li>
+			<li><a href="ShippingLibraryAdd.asp" target="_self">Add New Type of Accessory</a></li>
+			<li><a href="ShippingLibraryEdit.asp" target="_self">Manage Existing Accessory List</a></li>
+			<li><a href="ShippingItemEdit.asp" target="_self">Manage Existing Shipping List</a></li>
+-->	
+
+
+<ul id="Ship2" title="Shipping2">
+	<li><a href="#" target="_self">Re-Open Load</a></li>
+    <li><a href="#" target="_self">Back Order Report</a></li>
+</ul>
+
+<ul id="Inv" title="Inventory">
+<li class="group">View Stock</li>
+    <li><a href="stocklevels.asp" target="_self">Stock Levels</a></li>
+    <li><a href="stock2.asp" target="_self">Stock by Die</a></li>
+    <li><a href="stockbypic.asp#_picture" target="_self">Stock by Picture</a></li>
+	<li><a href="ruslaninventory.asp" target= "_self">Full Inventory Edit</a></li>
+    <li class="group">Enter Stock</li>
+		<li><a href="stock.asp?#_enter" target="_self">Enter Stock by Die</a></li>
+		<li><a href="stocknewdie.asp?#_enter" target="_self">Enter New Stock</a></li>
+    <li class="group">Edit + Delete Stock</li>
+        <li><a href="stockbyaisle.asp#_picture" target="_self">Edit Stock by Location</a></li>
+		<li><a href="stock.asp?#_remove" target="_self">Edit Stock Details By Part</a></li>
+		<!--Added January 17, 2014)-->
+		<li><a href="stock.asp?#_colour" target="_self">Edit Stock Details By Colour</a></li>
+		<li><a href="stock.asp?#_del" target="_self">Delete Stock</a></li>
+		<li><a href="stockother.asp" target="_self">Production Stock</a></li>
+    <li class="group">Inventory Admin</li>
+		<li><a href="masteradd.asp" target="_self">Add to Master</a></li>
+		<li><a href="masterEDIT.asp" target="_self">Edit Master</a></li>
+		<li><a href="coloradd.asp" target="_self">Add Color</a></li>
+		<li><a href="colorEDIT.asp" target="_self">Edit Color</a></li>
+		<li><a href="colordel.asp" target="_self">Delete Color</a></li>
+    <li class="group">Recieving</li>
+        <li><a href="stockbypo1.asp" target="_self">Pending Stock by PO</a></li>
+        <li><a href="stockgbypo1.asp" target="_self">Goreway Stock by PO</a></li>
+        <li><a href="stockpending.asp" target="_self">Stock on Order</a></li>
+		<li><a href="recbypoform.asp" target="_self">Receive by PO</a></li>
+    <li class="group">Reports</li>
+		<li><a href="stockreport.asp" target="_self">Inventory Report beta</a></li>
+	
+</ul>
+
+<ul id="Inv2" title="Inventory2">
+  
+	<li><a href="colors.asp" target="_self">Manage Colors</a></li>
+    <li><a href="lengths.asp" target="_self">Manage Lengths</a></li>
+    <li><a href="#" target="_self">SAPA Receiving</a></li>
+	<li><a href="#" target="_self">Others Receiving</a></li>
+    <li><a href="#" target="_self">Durapaint Receiving</a></li>
+    <li><a href="#" target="_self">Deplete Inventory</a></li>
+	<li><a href="#" target="_self">Put Back into Inventory</a></li>
+</ul>
+
+<ul id="Glass" title="Glass Tools">
+
+	<li class="group">Enter Glass</li>
+		<li><a href="glassenter.asp" target="_self">Enter Glass</a></li>
+		<li><a href="glasstypes.asp" target="_self">Enter Glass Types</a></li>
+		<li><a href="glassspacers.asp" target="_self">Enter Spacers</a></li>
+    <li class="group">Reports</li>
+		<li><a href="glassreportActive.asp" target="_self">All Glass - Active</a></li>
+		<li><a href="glassreportCompleted.asp" target="_self">All Glass - Completed</a></li>
+		<li><a href="glassreportProduction.asp" target="_self">Glass Report by Production</a></li>
+		<li><a href="glassreportService.asp" target="_self">Glass Report by Service</a></li>
+		<li><a href="glassreportCommercial.asp" target="_self">Glass Report by Commercial</a></li>
+    <li class="group">Management</li>
+		<li><a href="glassManage.asp" target="_self">Manage Glass</a></li>	
+		<li><a href="glasstypesManage.asp?GlassType=0&Description=0&ID=0&UPDATE=0" target="_self">Manage Glass Types</a></li>
+		<li><a href="glassspacersManage.asp?SPACER=0&OT=0&ID=0&UPDATE=0" target="_self">Manage Spacers</a></li>
+		<li><a href="glassReactivateScan.asp" target="_self">Scan Re-activate</a></li>		
+	<li class="group">Export</li>
+		<li><a href="glassexport.asp" target="_self">Export Glass</a></li>
+	<li class="group">Mark Done</li>
+		<li><a href="glassmarkdone.asp?ID=0&UNDO=0" target="_self">Manual Mark Done</a></li>
+		<li><a href="glassmarkdoneScan.asp" target="_self">Scan Done</a></li>
+	<li class="group">Broken Glass</li>
+		<li><a href="BrokenGlassAdd.asp" target="_self">Add Broken Glass</a></li>
+		<li><a href="BrokenGlassReportAll.asp" target="_self">View Broken Glass List</a></li>
+		<li><a href="BrokenGlassOrder.asp" target="_self">Re-Order Glass</a></li>
+	<li class="group">ScanPad Test</li>
+		<li><a href="scanpadtest.asp" target="_self">ScanpadTest Enter</a></li>
+		<li><a href="scanpadtestGET.asp" target="_self">ScanpadTest Retrieve</a></li>
+		
+</ul>
+
+<ul id="QC" title="Quality Control Tools">
+	<li class="group">Add QC Inventory Items</li>
+		<li><a href="QCInventoryAdd.asp" target="_self">Add/Scan new Inventory Item</a></li>
+		<li><a href="QCInventorySelect.asp" target="_self">Manage Existing Inventory Items</a></li>
+	<li class="group">Manage QC Master Inventory Items</li>
+		<li><a href="QCMasterAdd.asp" target="_self">Add a Master Item</a></li>
+		<li><a href="QCMasterSelect.asp" target="_self">Manage Existing Master Items</a></li>
+	<li class="group">QC Inventory Items Reports</li>
+		<li><a href="QCInventoryReport.asp" target="_self">QC All Inventory Report</a></li>
+		<li><a href="QCMasterReport.asp" target="_self">QC All Master Report</a></li>
+	<li class="group">Print Labels</li>	
+		<li><a href="QCGlassReport.asp" target="_self">QC Glass Labels</a></li>
+		<li><a href="QCSpacerReport.asp" target="_self">QC Spacer Labels</a></li>
+		<li><a href="QCSealantReport.asp" target="_self">QC Sealant Labels</a></li>
+		<li><a href="QCMiscReport.asp" target="_self">QC Miscellaneous Labels</a></li>
+	<li class="group">Quality Control is an independent Database from the main inventory</li>
+
+</ul>
+
+
+
+</div>
+
+</body>
+</html>

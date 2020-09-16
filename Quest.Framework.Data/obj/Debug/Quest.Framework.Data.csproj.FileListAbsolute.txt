@@ -1,0 +1,12 @@
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\Quest.Framework.Data.pdb
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\EntityFramework.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\EntityFramework.xml
+C:\Quest_Dev\Quest.Framework.Data\obj\Debug\Quest.Framework.Data.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.Framework.Data\obj\Debug\Quest.Framework.Data.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.Framework.Data\obj\Debug\Quest.Framework.Data.csproj.CopyComplete
+C:\Quest_Dev\Quest.Framework.Data\obj\Debug\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.Framework.Data\obj\Debug\Quest.Framework.Data.pdb
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\Quest.Framework.Persistence.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\Quest.Framework.Persistence.pdb
+C:\Quest_Dev\Quest.Framework.Data\bin\Debug\Quest.Framework.Persistence.dll.config

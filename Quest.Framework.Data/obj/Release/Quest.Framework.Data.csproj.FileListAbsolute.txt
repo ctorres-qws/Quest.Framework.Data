@@ -1,0 +1,12 @@
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\Quest.Framework.Data.pdb
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\Quest.Framework.Persistance.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\EntityFramework.dll
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\Quest.Framework.Persistance.pdb
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\Quest.Framework.Persistance.dll.config
+C:\Quest_Dev\Quest.Framework.Data\bin\Release\EntityFramework.xml
+C:\Quest_Dev\Quest.Framework.Data\obj\Release\Quest.Framework.Data.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.Framework.Data\obj\Release\Quest.Framework.Data.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.Framework.Data\obj\Release\Quest.Framework.Data.csproj.CopyComplete
+C:\Quest_Dev\Quest.Framework.Data\obj\Release\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.Framework.Data\obj\Release\Quest.Framework.Data.pdb

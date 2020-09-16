@@ -1,0 +1,57 @@
+-- JOB
+--SELECT P.Part, IsNull(EstQtyProject,0) EstQtyProject, IsNull(EstQtyOther,0) EstQtyOther, IsNull(ConsumedQty,0) ConsumedQty, IsNull(Qty_Nashua,0) Qty_Nashua, IsNull(Qty_Goreway,0) Qty_Goreway, IsNull(Qty_Horner,0) Qty_Horner, IsNull(Qty_Metra,0) Qty_Metra, IsNull(Qty_Durapaint,0) Qty_Durapaint, IsNull(Qty_DurapaintWIP,0) Qty_DurapaintWIP, IsNull(Qty_Sapa,0) Qty_Sapa, IsNull(TotalWarehouseQty,0) TotalWarehouseQty, IsNull(OtherConsumedQty,0) OtherConsumedQty FROM
+SELECT P.Part, P.Description,IsNull(EstQtyProject,0) EstQtyProject, IsNull(ConsumedQty,0) ConsumedQty, IsNull(EstQtyOther,0) EstQtyOther, IsNull(Qty_Nashua,0) Qty_Nashua, ISNULL(Qty_Nashua_Other,0) Qty_Nashua_Other, IsNull(Qty_Goreway,0) Qty_Goreway, IsNull(Qty_Horner,0) Qty_Horner, IsNull(Qty_Metra,0) Qty_Metra, IsNull(Qty_Durapaint,0) Qty_Durapaint, IsNull(Qty_DurapaintWIP,0) Qty_DurapaintWIP, IsNull(Qty_Sapa,0) Qty_Sapa, IsNull(TotalWarehouseQty,0) TotalWarehouseQty, IsNull(OtherConsumedQty,0) OtherConsumedQty FROM
+(
+-- PROJECT ESTIMATE
+SELECT qPM.Part, qPM.Description, SUM(Case WHEN qPM.Colour='{0}' THEN qPM.Qty ELSE 0 END) EstQtyProject, SUM(Case WHEN qPM.Colour<>'{0}' THEN qPM.Qty ELSE 0 END) EstQtyOther
+FROM _qws_Planning_Materials qPM
+WHERE qPM.Colour ='{0}' OR 
+(qPM.Colour IN (select y2.Project from y_color y1 inner join y_color y2 on y2.Code = y1.Code where y1.Project ='{0}' and y2.Project LIKE '%{1}')  AND qPM.Part IN ( SELECT Part FROM _qws_Planning_Materials WHERE Colour='{0}'))
+GROUP BY qPM.Part,qPM.Description
+) P
+LEFT JOIN
+-- PROJECT & OTHER PROJECT CONSUMED
+(
+SELECT Part , SUM(Case WHEN Colour='{0}' THEN Qty ELSE 0 END) ConsumedQty, SUM(Case WHEN Colour <>'{0}' THEN Qty ELSE 0 END) OtherConsumedQty FROM Y_InvLog
+WHERE Warehouse = 'WINDOW PRODUCTION' And [Transaction]='Transfer' AND colour in (select y2.Project from y_color y1 inner join y_color y2 on y2.Code = y1.Code where y1.Project ='{0}' and y2.Project LIKE '%{1}')
+GROUP By Part
+) C ON C.Part = P.Part
+LEFT JOIN
+-- WAREHOUSE QUANTITIES
+(
+SELECT Part,
+SUM(CASE WHEN Warehouse = 'NASHUA' THEN Qty Else 0 End) Qty_Nashua, 
+SUM(CASE WHEN Warehouse = 'GOREWAY' THEN Qty Else 0 End) Qty_Goreway,
+SUM(CASE WHEN Warehouse = 'HORNER' THEN Qty Else 0 End) Qty_Horner,
+SUM(CASE WHEN Warehouse = 'METRA' THEN Qty Else 0 End) Qty_Metra,
+SUM(CASE WHEN Warehouse = 'DURAPAINT' THEN Qty Else 0 End) Qty_Durapaint,
+SUM(CASE WHEN Warehouse = 'DURAPAINT(WIP)' THEN Qty Else 0 End) Qty_DurapaintWIP,
+SUM(CASE WHEN Warehouse = 'SAPA' or Warehouse = 'HYDRO' THEN Qty Else 0 End) Qty_Sapa,
+SUM(QTY) TotalWarehouseQTY
+FROM Y_INV 
+WHERE WAREHOUSE NOT IN ('SCRAP', 'WINDOW PRODUCTION') 
+--AND colour in (select y2.Project from y_color y1 inner join y_color y2 on y2.Code = y1.Code where y1.job ='AHX')
+AND colour in (select y1.Project from y_color y1 where y1.Project ='{0}')
+GROUP BY PART
+) Y ON Y.Part = P.Part
+LEFT JOIN
+-- WAREHOUSE QUANTITIES
+(
+SELECT Part,
+SUM(CASE WHEN Warehouse = 'NASHUA' THEN Qty Else 0 End) Qty_Nashua_Other, 
+SUM(CASE WHEN Warehouse = 'GOREWAY' THEN Qty Else 0 End) Qty_Goreway_Other,
+SUM(CASE WHEN Warehouse = 'HORNER' THEN Qty Else 0 End) Qty_Horner_Other,
+SUM(CASE WHEN Warehouse = 'METRA' THEN Qty Else 0 End) Qty_Metra_Other,
+SUM(CASE WHEN Warehouse = 'DURAPAINT' THEN Qty Else 0 End) Qty_Durapaint_Other,
+SUM(CASE WHEN Warehouse = 'DURAPAINT(WIP)' THEN Qty Else 0 End) Qty_DurapaintWIP_Other,
+SUM(CASE WHEN Warehouse = 'SAPA' or Warehouse = 'HYDRO' THEN Qty Else 0 End) Qty_Sapa_Other,
+SUM(QTY) TotalWarehouseQTY_Other 
+FROM Y_INV 
+WHERE WAREHOUSE NOT IN ('SCRAP', 'WINDOW PRODUCTION') 
+AND colour in (select y2.Project from y_color y1 inner join y_color y2 on y2.Code = y1.Code where y1.project ='{0}' and y2.project <> '{0}')
+--AND colour in (select y1.Project from y_color y1 where y1.job ='AHX')
+GROUP BY PART
+) Y2 ON Y2.Part = P.Part
+
+
+ORDER BY P.Part ASC

@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="~/styles/loading.css" rel="stylesheet" />
+    <link href="~/styles/palette-color-picker.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+    <link href="~/styles/questStyle.css" rel="stylesheet" />
+    <link href="~/styles/questTables.css" rel="stylesheet" />
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script>document.write('<script src="/Scripts/palette-color-picker.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    <script>document.write('<script src="/Scripts/quest.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+    
+    <script src="~/Scripts/bootstrap-notify.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+            crossorigin="anonymous"
+            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <style type="text/css">
+
+        body {
+            font-family: Arial;
+            font-size: 12px;
+        }
+
+        text {
+            font-size: 12px !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #15a9df !important
+        }
+
+
+
+        .btn-primary:hover {
+            color: rgb(199, 199, 199);
+        }
+
+        .title-main {
+            background-color: rgb(255,255,255) !important;
+            padding-left: 0px;
+        }
+        /* 237 */
+        div.dt-buttons {
+            float: right;
+            background-image: -webkit-linear- none !important;
+            background-image: none !important;
+        }
+
+        input {
+            border: 1px solid rgb(221,221,221) !important;
+            border-radius: 5px;
+            margin-bottom: 5px !important;
+            height: 30px !important;
+        }
+
+        #dialog-form > fieldset > input {
+            width: 90% !important;
+        }
+
+        .ui-dialog .ui-dialog-content {
+            overflow: hidden !important;
+        }
+
+        fieldset {
+            border: 1px solid rgb(221,221,221);
+            border-radius: 5px;
+            margin-bottom: 11px;
+            width: 100%;
+        }
+
+        .csDialogRow {
+            xborder: 1px solid black;
+            clear: both;
+        }
+
+            .csDialogRow > label {
+                width: 120px;
+                float: left !important;
+                xborder: 1px solid black;
+            }
+
+            .csDialogRow > input {
+                width: 440px !important;
+                float: left !important;
+                xborder: 1px solid black;
+                margin-left: 0px !important;
+                margin-top: 0px !important;
+                padding-left: 5px !important;
+            }
+
+        .row > input:not([type|=radio]):not([type|=checkbox]) {
+            padding-left: 5px !important;
+        }
+
+        .row > table > tbody > tr > td > input:not([type|=radio]):not([type|=checkbox]) {
+            padding-left: 5px !important;
+        }
+
+        select {
+            border: 1px solid rgb(221,221,221) !important;
+            border-radius: 5px;
+            padding: 3px 3px 3px 3px;
+            margin-bottom: 5px;
+            height: 35px;
+            font-size: 16px;
+        }
+
+        body.landscape > .toolbar > h1 {
+            width: 350px !important;
+        }
+
+        .csSearch > tbody > tr > td {
+            padding-left: 20px;
+        }
+
+        .csTData {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .csTDataAmt {
+            text-align: right;
+            padding-right: 5px;
+            font-size: 13px;
+        }
+
+        .csCheckBox {
+            width: 20px !important;
+        }
+
+
+        .container-fluid {
+            padding: 0;
+        }
+
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .modal-login {
+            color: #636363;
+            width: 350px;
+        }
+
+            .modal-login .modal-content {
+                padding: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+
+            .modal-login .modal-header {
+                border-bottom: none;
+                position: relative;
+                justify-content: center;
+            }
+
+            .modal-login h4 {
+                text-align: center;
+                font-size: 26px;
+                margin: 30px 0 -15px;
+            }
+
+            .modal-login .form-control:focus {
+                border-color: #70c5c0;
+            }
+
+            .modal-login .form-control, .modal-login .btn {
+                min-height: 40px;
+                border-radius: 3px;
+            }
+
+            .modal-login .close {
+                position: absolute;
+                top: -5px;
+                right: -5px;
+            }
+
+            .modal-login .modal-footer {
+                background: #ecf0f1;
+                border-color: #dee4e7;
+                text-align: center;
+                justify-content: center;
+                margin: 0 -20px -20px;
+                border-radius: 5px;
+                font-size: 13px;
+            }
+
+                .modal-login .modal-footer a {
+                    color: #999;
+                }
+
+            .modal-login .avatar {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: -70px;
+                width: 95px;
+                height: 95px;
+                border-radius: 50%;
+                z-index: 9;
+                background: #15a9df;
+                padding: 15px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+            }
+
+                .modal-login .avatar img {
+                    width: 100%;
+                }
+
+            .modal-login.modal-dialog {
+                margin-top: 80px;
+            }
+
+            .modal-login .btn, .modal-login .btn:active {
+                color: #fff;
+                border-radius: 4px;
+                background: #15a9df !important;
+                text-decoration: none;
+                transition: all 0.4s;
+                line-height: normal;
+                border: none;
+            }
+
+                .modal-login .btn:hover, .modal-login .btn:focus {
+                    background: #45aba6 !important;
+                    outline: none;
+                }
+
+            .modal-login .form-group {
+                position: relative;
+            }
+
+        .trigger-btn {
+            display: inline-block;
+            margin: 100px auto;
+        }
+
+        .modal-login i {
+            position: absolute;
+            left: 13px;
+            top: 11px;
+            font-size: 18px;
+        }
+
+        .modal-login input {
+            padding-left: 3rem;
+            font-size: 15px;
+        }
+
+        .sign-out {
+            float: right;
+            font-size: 2rem;
+            color: #222222;
+            margin-top: 1.4rem;
+            display: inline-flex;
+            cursor: pointer;
+        }
+
+            .sign-out:hover {
+                color: #888888;
+            }
+
+            .sign-out div {
+                font-size: .8rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                margin: 0.4rem;
+            }
+
+            .sign-out i {
+                font-size: 2rem;
+            }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            initializePage();
+            validateSession();
+
+            var input = document.getElementById("password");
+
+            // Execute a function when the user releases a key on the keyboard
+            input.addEventListener("keyup", function (event) {
+                // Number 13 is the "Enter" key on the keyboard
+                if (event.keyCode === 13) {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("btnLogIn").click();
+                }
+            });
+        });
+        function showLogInModal() {
+            $('#myModal').modal({ backdrop: 'static', keyboard: false });
+            $("#btnSignIn").text("Sign In");
+        }
+        function logIn() {
+
+            debugger;
+
+            var username = $("#username").val(), password = $("#password").val();
+
+            if (username == "") {
+                showWarningAlert("Please enter a username");
+                return;
+            }
+
+            if (password == "") {
+                showWarningAlert("Please enter a password");
+                return;
+            }
+
+            performAjaxRequest("@Url.Action("LogIn")",
+            {
+                username: username,
+                password: password
+                }, function (data) {
+                if (data.Username != undefined) {
+                    $("#myModal").modal('hide');
+                    $("#btnSignIn").text("Sign Out");
+                }
+            }, function (data) {
+                if (data == undefined || data.Username == undefined)
+                    showWarningAlert("Incorrect username or password");
+            }, function (data) {
+                debugger;
+            });
+
+        }
+        function signout() {
+            window.location.href = '@Url.Action("LogOut","Authentication")'
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header-banner-small"></div>
+        <div class="row" id="pageHeader" style="border-bottom: 1px solid rgb(221,221,221);width: 100%;height: 4rem;height: 5rem;">
+            <nav class="navbar-white navbar-nobottom col-xl-4">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/index.html#_Ship"><img src="~/images/full-logo.png" class="App-logo" alt="logo"></a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".bsNavCollapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <h2 class="header col-lg-4 p-3 mb-0 mt-2">@ViewBag.Title</h2>
+            <div class="col-lg-3">
+                <div class="sign-out" onclick="signout()"><div id="btnSignIn">Sign In</div><i class="fa fa-sign-out"></i></div>
+            </div>
+        </div>
+        <div class="container-fluid body-content">
+            @RenderBody()
+
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog modal-login">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="avatar">
+                                <img src="~/images/user.png" alt="Avatar"/>
+                            </div>
+                            <h4 class="modal-title">Sign In</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <i class="fa fa-lock"></i>
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="required">
+                                </div>
+                                <div class="form-group">                                    
+                                    <button id="btnLogIn" type="button" onclick="logIn()" class="btn btn-lg btn-block login-btn">Sign in </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <hr />
+            <footer>
+
+                <div class="footer-copyright text-center">
+                    <p>&copy; @DateTime.Now.Year - Quest</p>
+                    <a href="mailto:support.MIS@questwindows.com">support.MIS@questwindows.com</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

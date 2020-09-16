@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- New Shipping Tool to replace Older Version uses more controlled Truck and Scanning Processes  -->
+<!-- Designed May,June,July 2019 - Production Ready end of July 2019 =- David Ofir, Ariel Aziza, Michael Bernholtz -->
+<!-- Home Page is ASP so Manager Tool can be hidden - Manager Scanner must be Set to Manager = True  -->
+
+<html>
+<head>
+  <title>Shipping Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="icon" type="image/png" href="../iui/iui-favicon.png">
+  <link rel="apple-touch-icon" href="../iui/questlogo.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="../iui/iui.css" type="text/css" />
+  <link rel="stylesheet" title="Default" href="../iui/t/default/default-theme.css"  type="text/css"/>
+  <link rel="stylesheet" href="../css/iui-panel-list.css" type="text/css" />
+  <script type="application/x-javascript" src="../iui/iui.js"></script>
+
+</head>
+<body>
+    <p>&nbsp;</p>
+    <div class="toolbar">
+    <h1 id="pageTitle">Shipping</h1>
+        <a id="backButton" class="button"  href="back.html"></a>
+        
+    </div>
+<ul id="home" title="Shipping Tools" selected="true">
+
+<li class="group">Shipping Department Scans</li>
+
+	<li class="group">Shipping Scan Items</li>
+			<li><a href="ShipTruckScan.asp" target="_self">Scan Items to Existing Trucks</a></li>
+	<li class="group">Quest Tools : Shipping Section</li>
+			<li><a href="ShipTruckOpen.asp" target="_self">Open Truck</a></li>	
+			<li><a href="ShipTruckEdit.asp" target="_self">Manage Trucks</a></li>
+			<li><a href="ShipTruckReOpen.asp" target="_self">Re-Open a Closed Truck</a></li>		
+	<li class="group">Quest Tools : Reports</li>	
+			<li><a href="ShipReportOpen.asp" target="_self">Report - Open Trucks</a></li>	
+			<li><a href="ShipReportClosed.asp" target="_self">Report - Closed Trucks</a></li>	
+			<li><a href="ShipFloorOpen.asp" target="_self">Report - Active Floors</a></li>	
+			<li><a href="ShipFloorClosed.asp" target="_self">Report - Shipped Floors</a></li>	
+			
+</ul>
+
+</div>
+
+</body>
+</html>

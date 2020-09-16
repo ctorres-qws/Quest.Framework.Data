@@ -1,0 +1,10 @@
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\bin\Debug\Quest.ScanToPrint.FocusHandler.dll
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\bin\Debug\Quest.ScanToPrint.FocusHandler.pdb
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\bin\Debug\Quest.ScanToPrint.FocusHandler.xml
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.Resources.resources
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.vbproj.GenerateResource.cache
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.vbproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.dll
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.xml
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.pdb
+C:\Quest_Dev\Quest.ScanToPrint\Quest.ScanToPrint.FocusHandler\obj\Debug\Quest.ScanToPrint.FocusHandler.vbprojAssemblyReference.cache

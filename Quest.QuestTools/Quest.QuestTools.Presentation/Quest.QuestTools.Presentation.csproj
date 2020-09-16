@@ -1,0 +1,1215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\Quest.Framework.Data\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\Quest.Framework.Data\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2465DF6B-8D00-40B5-9C13-78A663B49ACE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quest.QuestTools.Presentation</RootNamespace>
+    <AssemblyName>Quest.QuestTools.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44383</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Quest.Framework.Data\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\..\Quest.Framework.Data\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\..\Quest.Framework.Data\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ShippingController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ColorCatalogViewModel.cs" />
+    <Compile Include="Models\JobColorChangeViewModel.cs" />
+    <Compile Include="Models\PrintersViewModel.cs" />
+    <Compile Include="Models\ShippingLabelColorViewModel.cs" />
+    <Compile Include="Models\UserAuthentication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="%40%40site.asp" />
+    <Content Include="%40%40siteTest.asp" />
+    <Content Include="%40%40siteworks.asp" />
+    <Content Include="%40Check.asp" />
+    <Content Include="%40CheckSys.asp" />
+    <Content Include="%40common.asp" />
+    <Content Include="%40commonTest.asp" />
+    <Content Include="%40ReSyncTable.asp" />
+    <Content Include="%40revisions.txt" />
+    <Content Include="%40SyncReport.asp" />
+    <Content Include="%40SysInfo.asp" />
+    <Content Include="%40SysLog.asp" />
+    <Content Include="%40Test.asp" />
+    <Content Include="%40TestStuff.asp" />
+    <Content Include="%40TestTable.asp" />
+    <Content Include="ActiveDirectoryTest.asp" />
+    <Content Include="AddFloor1.asp" />
+    <Content Include="AddFloor2.asp" />
+    <Content Include="AddFloor2Conf.asp" />
+    <Content Include="AddFloor3.asp" />
+    <Content Include="AddFloor3Conf.asp" />
+    <Content Include="adovbs.inc" />
+    <Content Include="allbybundle.asp" />
+    <Content Include="Allbybundle1.asp" />
+    <Content Include="allbyexbundle.asp" />
+    <Content Include="Allbyexbundle1.asp" />
+    <Content Include="allbypo.asp" />
+    <Content Include="Allbypo1.asp" />
+    <Content Include="allbypobundle.asp" />
+    <Content Include="Allbypobundle1.asp" />
+    <Content Include="AllFloorsReport.asp" />
+    <Content Include="AllJobsChildConf.asp" />
+    <Content Include="AllJobsChildConf_2019Nov13.asp" />
+    <Content Include="AllJobsChildEnter.asp" />
+    <Content Include="AllJobsChildEnter_2019Nov13.asp" />
+    <Content Include="AllJobsConf.asp" />
+    <Content Include="AllJobsEditConf.asp" />
+    <Content Include="AllJobsEditForm.asp" />
+    <Content Include="AllJobsEditForm_2019Dec13.asp" />
+    <Content Include="AllJobsEnter.asp" />
+    <Content Include="AllJobsEnter_2019Dec13.asp" />
+    <Content Include="AllJobsReport.asp" />
+    <Content Include="AllJobsReportDetail.asp" />
+    <Content Include="AllocationConf.asp" />
+    <Content Include="AllocationForm.asp" />
+    <Content Include="AluminumPriceDurapaint.asp" />
+    <Content Include="AluminumPriceGoreway.asp" />
+    <Content Include="AluminumPriceHorner.asp" />
+    <Content Include="AluminumPriceNashua.asp" />
+    <Content Include="Awning.asp" />
+    <Content Include="AwningReport.asp" />
+    <Content Include="A_IIS.asp" />
+    <Content Include="BackOrderC.asp" />
+    <Content Include="BackorderReport.asp" />
+    <Content Include="BackorderScan.asp" />
+    <Content Include="BARCODEgmail.asp" />
+    <Content Include="BARCODERTV-Database.asp" />
+    <Content Include="BARCODERTV.asp" />
+    <Content Include="BARCODERTVEmail.asp" />
+    <Content Include="BARCODERTVx.asp" />
+    <Content Include="BARCODESHIFT.asp" />
+    <Content Include="BARCODESHIFTy.asp" />
+    <Content Include="BARCODESTRING.asp" />
+    <Content Include="BarcodeWeek.asp" />
+    <Content Include="BARCODEWEEKLY.asp" />
+    <Content Include="BarcodeWeeklyStats.asp" />
+    <Content Include="BarcodeWeeklyStatsshort.asp" />
+    <Content Include="barcodex.asp" />
+    <Content Include="barcodex.html" />
+    <Content Include="barcode_dbpath.asp" />
+    <Content Include="BARCODE_REPORT.asp" />
+    <Content Include="BARCODE_V.asp" />
+    <Content Include="bcdraw.asp" />
+    <Content Include="bcdraw2.asp" />
+    <Content Include="bcgenerate.asp" />
+    <Content Include="bcgentest.asp" />
+    <Content Include="bcid.asp" />
+    <Content Include="bcprint.asp" />
+    <Content Include="bcprintloop.asp" />
+    <Content Include="bcprintloop2.asp" />
+    <Content Include="bigg.gif" />
+    <Content Include="bigr.gif" />
+    <Content Include="bigy.gif" />
+    <Content Include="bluesquare.gif" />
+    <Content Include="BrokenGlassAdd.asp" />
+    <Content Include="BrokenGlassConf.asp" />
+    <Content Include="BrokenGlassOrder.asp" />
+    <Content Include="BrokenGlassOrderConf.asp" />
+    <Content Include="BrokenGlassReport.asp" />
+    <Content Include="BrokenGlassReportAll.asp" />
+    <Content Include="coloradd.asp" />
+    <Content Include="colordel.asp" />
+    <Content Include="colordelconf.asp" />
+    <Content Include="colordelform.asp" />
+    <Content Include="COLORedit.asp" />
+    <Content Include="coloreditconf.asp" />
+    <Content Include="coloreditform.asp" />
+    <Content Include="colorin.asp" />
+    <Content Include="colorReport.asp" />
+    <Content Include="colorReportTest.asp" />
+    <Content Include="complete.jpg" />
+    <Content Include="confirmscan.gif" />
+    <Content Include="connect_barcode2.asp" />
+    <Content Include="connect_barcodega.asp" />
+    <Content Include="connect_barcodeov.asp" />
+    <Content Include="connect_barcodep.asp" />
+    <Content Include="connect_barcodeqc.asp" />
+    <Content Include="connect_barcodesd.asp" />
+    <Content Include="connect_barcodesw.asp" />
+    <Content Include="connect_flashbc.asp" />
+    <Content Include="connect_scanning.asp" />
+    <Content Include="connect_tablist.asp" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CountryLocation.INC" />
+    <Content Include="custom.css" />
+    <Content Include="CutFileProgress.asp" />
+    <Content Include="CutlistArchiveProcedure1.asp" />
+    <Content Include="CutlistArchiveProcedure2.asp" />
+    <Content Include="CutlistArchiveProcedure3.asp" />
+    <Content Include="CutlistArchiveProcedure4.asp" />
+    <Content Include="CutlistArchiveProcedure4BU.asp" />
+    <Content Include="CutlistArchiveProcedureGmail.asp" />
+    <Content Include="CutlistArchiveProcedureMain.asp" />
+    <Content Include="CutlistArchiveProceduretestView.asp" />
+    <Content Include="CutlistView.asp" />
+    <Content Include="CycleCount_InventoryViewer.asp" />
+    <Content Include="CycleCount_InventoryViewerHardware.asp" />
+    <Content Include="CycleCount_InventoryViewerJUPITER.asp" />
+    <Content Include="CycleCount_InventoryViewerPlastic.asp" />
+    <Content Include="CycleCount_InventoryViewerSelect.asp" />
+    <Content Include="CycleCount_InventoryViewerSelectDate.asp" />
+    <Content Include="CycleCount_InventoryViewerSheets.asp" />
+    <Content Include="DailyActivitygmail.asp" />
+    <Content Include="DailyProductionDatabase.asp" />
+    <Content Include="dbpath-QUESTSQL.asp" />
+    <Content Include="dbpath.asp" />
+    <Content Include="dbpath2.asp" />
+    <Content Include="DBPATHTEST.asp" />
+    <Content Include="dbpath_PREF.asp" />
+    <Content Include="dbpath_QuestAccess_QuestSQL.asp" />
+    <Content Include="dbpath_Quest_ArchiveLists.asp" />
+    <Content Include="dbpath_Quest_InventoryReports.asp" />
+    <Content Include="dbpath_secondary.asp" />
+    <Content Include="dkbluesquare.gif" />
+    <Content Include="dkgreensquare.gif" />
+    <Content Include="dkredsquare.gif" />
+    <Content Include="DoorReport.asp" />
+    <Content Include="DoorStyle.asp" />
+    <Content Include="DoorStylebyJob.asp" />
+    <Content Include="DoorStyleConf.asp" />
+    <Content Include="DoorStyleEditConf.asp" />
+    <Content Include="DoorStyleEditForm.asp" />
+    <Content Include="DoorStyleEnter.asp" />
+    <Content Include="DoorStyleEnter_Test.asp" />
+    <Content Include="DrillDownReport.asp" />
+    <Content Include="DrillDownReportGlass.asp" />
+    <Content Include="DrillDownReportSaws.asp" />
+    <Content Include="DROPArchiveProcedure2.asp" />
+    <Content Include="DurapaintWIPSENT.asp" />
+    <Content Include="DurapaintWIPSentConf.ASP" />
+    <Content Include="emailDeleteDurapaintLog.asp" />
+    <Content Include="emailETVg.asp" />
+    <Content Include="EndYear_Report.asp" />
+    <Content Include="ErrorHandler.asp" />
+    <Content Include="ETVa.asp" />
+    <Content Include="ETVa2.asp" />
+    <Content Include="ETVabylw.asp" />
+    <Content Include="ETVabyw.asp" />
+    <Content Include="ETVadet.asp" />
+    <Content Include="ETVg.asp" />
+    <Content Include="ETVgbylw.asp" />
+    <Content Include="ETVgbyw.asp" />
+    <Content Include="ExcelHornerInventory.asp" />
+    <Content Include="ExcelInventoryCountHardware.asp" />
+    <Content Include="ExcelInventoryCountJUPITER.asp" />
+    <Content Include="ExcelInventoryCountNASHUA.asp" />
+    <Content Include="ExcelJupiterInventory.asp" />
+    <Content Include="ExcelNashuaInventory.asp" />
+    <Content Include="FabDrawing_Manager.asp" />
+    <Content Include="favicon.ico" />
+    <Content Include="FindGlass.asp" />
+    <Content Include="FindGlassReport.asp" />
+    <Content Include="FindStock.asp" />
+    <Content Include="FindStockReport.asp" />
+    <Content Include="fix.html" />
+    <Content Include="FloorReportAll.asp" />
+    <Content Include="FloorReportFind.asp" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FORM_ProcessInspect.asp" />
+    <Content Include="FORM_ProcessInspectConf.asp" />
+    <Content Include="FORM_ProcessInspectEnter.asp" />
+    <Content Include="FORM_QA.asp" />
+    <Content Include="FORM_QAConf.asp" />
+    <Content Include="FORM_QAEnter.asp" />
+    <Content Include="FORM_RawMaterial.asp" />
+    <Content Include="FORM_RawMaterialConf.asp" />
+    <Content Include="FORM_RawMaterialEnter.asp" />
+    <Content Include="ga1.asp" />
+    <Content Include="ga1BU.asp" />
+    <Content Include="GLASSCONF.asp" />
+    <Content Include="GlassDelConf.asp" />
+    <Content Include="glassenter.asp" />
+    <Content Include="glassenterTable.asp" />
+    <Content Include="glassenterTable2.asp" />
+    <Content Include="GLASSEXPORT.ASP" />
+    <Content Include="GlassExportCommercial.ASP" />
+    <Content Include="GlassExportPassword.asp" />
+    <Content Include="GlassExportPO.ASP" />
+    <Content Include="glassexportPOenter.asp" />
+    <Content Include="GlassExportProduction.ASP" />
+    <Content Include="glassExportSelect.asp" />
+    <Content Include="GlassExportSelectConf.ASP" />
+    <Content Include="GlassExportSelectConf_bak.ASP" />
+    <Content Include="GlassExportService.ASP" />
+    <Content Include="GlassInjectionConf.asp" />
+    <Content Include="GlassInjectionForm.asp" />
+    <Content Include="GlassManage.asp" />
+    <Content Include="GlassManageConf.asp" />
+    <Content Include="GlassManageForm.asp" />
+    <Content Include="GlassManageTimeLineConf.asp" />
+    <Content Include="GlassManageTimeLineForm.asp" />
+    <Content Include="glassmarkdone.asp" />
+    <Content Include="GlassMarkDoneDAN.asp" />
+    <Content Include="glassmarkdoneScan.asp" />
+    <Content Include="glassmarkdonetable.asp" />
+    <Content Include="GlassOptimaCardinalConf.asp" />
+    <Content Include="glassOptimaCardinalSelect.asp" />
+    <Content Include="GlassOptimaNote.asp" />
+    <Content Include="GlassOptimaNoteConf.asp" />
+    <Content Include="GlassOptimaNoteConf2.asp" />
+    <Content Include="glassOptimaNoteSelect.asp" />
+    <Content Include="glassOptimaNoteSelect2.asp" />
+    <Content Include="GlassOptimaQTConf.asp" />
+    <Content Include="GlassOptimaQTConf2.asp" />
+    <Content Include="glassOptimaQTSelect.asp" />
+    <Content Include="glassOptimaQTSelect2.asp" />
+    <Content Include="GlassOptimaQuickTempConf.asp" />
+    <Content Include="glassOptimaQuickTempSelect.asp" />
+    <Content Include="GlassOptimaSafe.ASP" />
+    <Content Include="glassOptimaUndo.asp" />
+    <Content Include="glassOptimaUndoConf.asp" />
+    <Content Include="glassorderTable.asp" />
+    <Content Include="GlassProfilebyJob.asp" />
+    <Content Include="GlassProfilebyJob1.asp" />
+    <Content Include="GlassProfileConf.asp" />
+    <Content Include="GlassProfileEnter.asp" />
+    <Content Include="glassReactivateScan.asp" />
+    <Content Include="glassReceived.asp" />
+    <Content Include="glassReceivedConf.asp" />
+    <Content Include="glassReceivedExpected.asp" />
+    <Content Include="glassReceivedExpectedConf.asp" />
+    <Content Include="glassReceivedSelect.asp" />
+    <Content Include="GlassReceivedSelectConf.asp" />
+    <Content Include="GlassRemoveConf.asp" />
+    <Content Include="GlassRemovePOConf.asp" />
+    <Content Include="glassreportActive.asp" />
+    <Content Include="glassreportActiveBU.asp" />
+    <Content Include="glassreportCommercial.asp" />
+    <Content Include="glassreportCompleted.asp" />
+    <Content Include="glassreportJob.asp" />
+    <Content Include="GlassReportJob1.asp" />
+    <Content Include="glassreportJobTime.asp" />
+    <Content Include="glassreportPO.asp" />
+    <Content Include="GlassReportPO1.asp" />
+    <Content Include="glassreportPOORDER.asp" />
+    <Content Include="glassreportPOTime.asp" />
+    <Content Include="glassreportProduction.asp" />
+    <Content Include="glassreportQT.asp" />
+    <Content Include="GlassReportQT1.asp" />
+    <Content Include="glassreportQTTime.asp" />
+    <Content Include="glassreportRecut.asp" />
+    <Content Include="glassreportService.asp" />
+    <Content Include="glassreportShipped.asp" />
+    <Content Include="glassspacers.asp" />
+    <Content Include="GLASSSpacersCONF.asp" />
+    <Content Include="glassspacersManage.asp" />
+    <Content Include="glassspandrel.asp" />
+    <Content Include="glassSpandrelColourTable.asp" />
+    <Content Include="GLASSspandrelCONF.asp" />
+    <Content Include="glassSpandrelManage.asp" />
+    <Content Include="glassTime.asp" />
+    <Content Include="glassTimeLine.asp" />
+    <Content Include="glassTimeLineOld.asp" />
+    <Content Include="GlassTimeReport.asp" />
+    <Content Include="GlassToolsReport.asp" />
+    <Content Include="GlassToolsReportgmail.asp" />
+    <Content Include="GlassToolViewActive.asp" />
+    <Content Include="GlassToolViewCommercial.asp" />
+    <Content Include="GlassToolViewCompleted.asp" />
+    <Content Include="GlassToolViewOptima.asp" />
+    <Content Include="GlassToolViewReceived.asp" />
+    <Content Include="GlassToolViewService.asp" />
+    <Content Include="GlassToolViewShipped.asp" />
+    <Content Include="GlassToolViewWait.asp" />
+    <Content Include="GlassToolViewWaitCommercial.asp" />
+    <Content Include="GLASSTV.asp" />
+    <Content Include="GlassTVForel.asp" />
+    <Content Include="GlassTVForel1.asp" />
+    <Content Include="GlassTVForel2.asp" />
+    <Content Include="GLASSTVHistory.asp" />
+    <Content Include="GlassTVService.asp" />
+    <Content Include="GlassTVServiceBoth.asp" />
+    <Content Include="GlassTVServiceStatus.asp" />
+    <Content Include="GlassTVWillian.asp" />
+    <Content Include="GLASSTV_morecode.asp" />
+    <Content Include="GLASSTypeCONF.asp" />
+    <Content Include="glasstypes.asp" />
+    <Content Include="glasstypesManage.asp" />
+    <Content Include="glassTypesTable.asp" />
+    <Content Include="GlassUploadConf.asp" />
+    <Content Include="GlassUploadFile.asp" />
+    <Content Include="GlazeBackorder.asp" />
+    <Content Include="glazing2report.asp" />
+    <Content Include="glazing2reportconf.asp" />
+    <Content Include="glazing2reportform.asp" />
+    <Content Include="GlazingImportOldDay.asp" />
+    <Content Include="GlazingOpenings.asp" />
+    <Content Include="GlazingStats1.asp" />
+    <Content Include="GlazingStats3.asp" />
+    <Content Include="GlazingTodayYesterday.asp" />
+    <Content Include="GlazingVShipping.asp" />
+    <Content Include="GlazingVShippingDate.asp" />
+    <Content Include="GlazingWeekly.asp" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="GmailCheckParent.asp" />
+    <Content Include="GmailCheckParentTest.asp" />
+    <Content Include="gmailDeleteDurapaintLog.asp" />
+    <Content Include="gmailetvg.asp" />
+    <Content Include="gmailetvgbyw.asp" />
+    <Content Include="GmailGlassLineScans.asp" />
+    <Content Include="gmailShiftKitting.asp" />
+    <Content Include="GmailZipperTest.asp" />
+    <Content Include="greensquare.gif" />
+    <Content Include="Gtypes.aspx" />
+    <Content Include="History.txt" />
+    <Content Include="hydrobypo.asp" />
+    <Content Include="hydrobypo1.asp" />
+    <Content Include="images\full-logo.png" />
+    <Content Include="images\GLprinter.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\user.png" />
+    <Content Include="inc_style.asp" />
+    <Content Include="index.asp" />
+    <Content Include="index.html" />
+    <Content Include="indexBU.html" />
+    <Content Include="indexCanada.html" />
+    <Content Include="indexTexas.html" />
+    <Content Include="InventoryArchiveByJob.asp" />
+    <Content Include="InventoryArchiveProcedure.asp" />
+    <Content Include="InventoryArchiveProcedure2.asp" />
+    <Content Include="InventoryJobInactivity.asp" />
+    <Content Include="InventoryperJob.asp" />
+    <Content Include="InventoryReportConf.asp" />
+    <Content Include="InventoryReportConfYearEnd.asp" />
+    <Content Include="InventoryReportCreate.asp" />
+    <Content Include="InventoryReportCreateYearEnd.asp" />
+    <Content Include="InventoryReportEXCEL.ASP" />
+    <Content Include="InventoryReportGlassPrices.asp" />
+    <Content Include="InventoryReportHardwareEXCEL.asp" />
+    <Content Include="InventoryReportHardwareSelect.asp" />
+    <Content Include="InventoryReportHardwareValue.asp" />
+    <Content Include="InventoryReportPaintPrices.asp" />
+    <Content Include="InventoryReportPrices%28old%29.asp" />
+    <Content Include="InventoryReportPrices.asp" />
+    <Content Include="InventoryReportPrices_Old.asp" />
+    <Content Include="InventoryReportPurchaseSelect.asp" />
+    <Content Include="InventoryReportPurchaseValue.asp" />
+    <Content Include="InventoryReportSelect.asp" />
+    <Content Include="InventoryReportSelectCostBySupplier.asp" />
+    <Content Include="InventoryReportShaun.asp" />
+    <Content Include="InventoryReportValue.asp" />
+    <Content Include="InventoryReportValue2.asp" />
+    <Content Include="InventoryReportValueCostBySupplier.asp" />
+    <Content Include="InventoryReportValueCostBySupplierV3.asp" />
+    <Content Include="InventoryReportValueCostBySupplier_Custom.asp" />
+    <Content Include="InventoryReportValueCostBySupplier_US.asp" />
+    <Content Include="InventoryReportValuePlastic.asp" />
+    <Content Include="InventoryReportValueSheet.asp" />
+    <Content Include="InventoryReportWIPSelect.asp" />
+    <Content Include="InventoryReportWIPValue.asp" />
+    <Content Include="JB_Report.asp" />
+    <Content Include="JB_ReportEnter.asp" />
+    <Content Include="JobsPlanningWeeksTableWeek_Template.html" />
+    <Content Include="JobsPlanningWeeksTable_Template.html" />
+    <Content Include="JobsPlanningWeeks_Template.html" />
+    <Content Include="JR_Approval.asp" />
+    <Content Include="JR_ApprovalCONF.asp" />
+    <Content Include="KioskHome.html" />
+    <Content Include="LabelSheetEnter.asp" />
+    <Content Include="LabelSheet_v1.asp" />
+    <Content Include="label_lantek_colour.asp" />
+    <Content Include="label_lantek_enter.asp" />
+    <Content Include="label_lantek_v1.asp" />
+    <Content Include="label_lantek_v1_BU.asp" />
+    <Content Include="label_lantek_v1_BU2.asp" />
+    <Content Include="label_lantek_V2.asp" />
+    <Content Include="Label_Text_print.html" />
+    <Content Include="MainPage%28old%29.asp" />
+    <Content Include="MainPage.asp" />
+    <Content Include="masteradd.asp" />
+    <Content Include="MASTERedit.asp" />
+    <Content Include="mastereditconf.asp" />
+    <Content Include="mastereditform.asp" />
+    <Content Include="MASTEReditTable.asp" />
+    <Content Include="MasterGlassUsage.asp" />
+    <Content Include="MasterHardwareUsage.asp" />
+    <Content Include="masterin.asp" />
+    <Content Include="MasterInventoryUsage.asp" />
+    <Content Include="MasterReport.asp" />
+    <Content Include="MaterialPlanningJobEntry.asp" />
+    <Content Include="MaterialPlanningReports.asp" />
+    <Content Include="MaterialsPlanningReport_Job.txt" />
+    <Content Include="MaterialsPlanningReport_Part.txt" />
+    <Content Include="METRICS.asp" />
+    <Content Include="METRICSbyjob.asp" />
+    <Content Include="METRICSbyjobd-jody.asp" />
+    <Content Include="METRICSbyjobd.asp" />
+    <Content Include="MichaelArchive.asp" />
+    <Content Include="Michaelindex.html" />
+    <Content Include="MichaelLabel.asp" />
+    <Content Include="MichaelLabel2.asp" />
+    <Content Include="Michaeltabletest.asp" />
+    <Content Include="MichaelTestArchive.asp" />
+    <Content Include="Michaeltestpage.asp" />
+    <Content Include="Michaeltestpage2.asp" />
+    <Content Include="MillAllocationLevels.asp" />
+    <Content Include="MonthendTables.asp" />
+    <Content Include="NashuaRacks.asp" />
+    <Content Include="NashuaRacks2.asp" />
+    <Content Include="OJDateRange.asp" />
+    <Content Include="OJonTruck.asp" />
+    <Content Include="OJonTruckBU.asp" />
+    <Content Include="OpeningsPerJobReport.asp" />
+    <Content Include="OptimaTV.asp" />
+    <Content Include="OptimaTVHistory.asp" />
+    <Content Include="OptimizationLogAnalysis.asp" />
+    <Content Include="optimizationlogConf.asp" />
+    <Content Include="OptimizationLogDelConf.asp" />
+    <Content Include="OptimizationLogEditConf.asp" />
+    <Content Include="OptimizationLogEditConftest.asp" />
+    <Content Include="OptimizationLogEditForm.asp" />
+    <Content Include="OptimizationLogForm.asp" />
+    <Content Include="optimizationLogGlass.asp" />
+    <Content Include="OptimizationLogManage.asp" />
+    <Content Include="OptimizeBackOrder.asp" />
+    <Content Include="OrderList.asp" />
+    <Content Include="OrderListConf.asp" />
+    <Content Include="OrderListEditConf.asp" />
+    <Content Include="orderListEditForm.asp" />
+    <Content Include="OrderListEnter.asp" />
+    <Content Include="OrderReceived.asp" />
+    <Content Include="ov1.asp" />
+    <Content Include="PanelLabelsReport.asp" />
+    <Content Include="PanelPrintLabels.asp" />
+    <Content Include="PanelReport.asp" />
+    <Content Include="PanelReportDetails.asp" />
+    <Content Include="PanelReportJobFloor.asp" />
+    <Content Include="PanelStylebyJob.asp" />
+    <Content Include="PanelStylebyJob1.asp" />
+    <Content Include="PanelStyleConf.asp" />
+    <Content Include="panelStyleEditconf.asp" />
+    <Content Include="panelStyleeditform.asp" />
+    <Content Include="PanelStyleEnter.asp" />
+    <Content Include="PanelTV.asp" />
+    <Content Include="PanelTVHistory.asp" />
+    <Content Include="PanelTVSummary.asp" />
+    <Content Include="PanelUploadConf.asp" />
+    <Content Include="PanelUploadFile.asp" />
+    <Content Include="PendingStock.asp" />
+    <Content Include="personicon.gif" />
+    <Content Include="PickListdelconf.asp" />
+    <Content Include="PickListEdit.asp" />
+    <Content Include="PickListEditConf.asp" />
+    <Content Include="PickListEditForm.asp" />
+    <Content Include="PickListEnter.asp" />
+    <Content Include="PickListFilter.asp" />
+    <Content Include="PickListFilterView.asp" />
+    <Content Include="PickListSearch.asp" />
+    <Content Include="PickListView.asp" />
+    <Content Include="plantTV.asp" />
+    <Content Include="plantTVm.asp" />
+    <Content Include="PrefInventory.asp" />
+    <Content Include="PrefInventoryExcel.asp" />
+    <Content Include="PREFPOtoWarehouse.asp" />
+    <Content Include="PrefPOtoWarehouseReceive.asp" />
+    <Content Include="PrefPOtoWarehouseSplit.asp" />
+    <Content Include="PrintLabelsDoorWarning.asp" />
+    <Content Include="PrintLabelsInventory.asp" />
+    <Content Include="PrintLabelsShipping.asp" />
+    <Content Include="prodtarget.asp" />
+    <Content Include="prodtargetconf.asp" />
+    <Content Include="productionbypo.asp" />
+    <Content Include="productionbypo1.asp" />
+    <Content Include="productionlastweektable.asp" />
+    <Content Include="ProductionSummaryMonthly.asp" />
+    <Content Include="ProductionsummarymonthlyEmail.asp" />
+    <Content Include="ProductionSummaryWeekly.asp" />
+    <Content Include="ProductionsummaryweeklyEmail.asp" />
+    <Content Include="productiontoday.asp" />
+    <Content Include="ProductionTodaygmail.asp" />
+    <Content Include="productiontodaytable.asp" />
+    <Content Include="productiontodaytableemail.asp" />
+    <Content Include="productiontodaytableexcel.asp" />
+    <Content Include="productionweek.asp" />
+    <Content Include="productionweektable.asp" />
+    <Content Include="ProHCut.asp" />
+    <Content Include="ProStop.asp" />
+    <Content Include="ProVCut.asp" />
+    <Content Include="QCdbpath.asp" />
+    <Content Include="QCGlassPrint.asp" />
+    <Content Include="QCGlassPrintLabels.asp" />
+    <Content Include="QCglassReport.asp" />
+    <Content Include="QCglassReport_2020Jan07.asp" />
+    <Content Include="QCInventoryAdd.asp" />
+    <Content Include="QCInventoryAddTest.asp" />
+    <Content Include="QCInventoryConf.asp" />
+    <Content Include="QCInventoryConsumeConf.asp" />
+    <Content Include="QCInventoryDelConf.asp" />
+    <Content Include="QCInventoryEdit.asp" />
+    <Content Include="QCInventoryEditConf.asp" />
+    <Content Include="QCInventoryEditConf_ARR.asp" />
+    <Content Include="QCInventoryEditForm.asp" />
+    <Content Include="QCInventoryReport.asp" />
+    <Content Include="QCInventoryReportActive.asp" />
+    <Content Include="QCInventoryScanConsume.asp" />
+    <Content Include="QCInventorySelect.asp" />
+    <Content Include="QCInventoryUpdateConf.asp" />
+    <Content Include="QCLitesCounter.asp" />
+    <Content Include="QCLitesCounterConf.asp" />
+    <Content Include="QCLitesCounterConf_ARR.asp" />
+    <Content Include="QCMasterAdd.asp" />
+    <Content Include="QCMasterConf.asp" />
+    <Content Include="QCMasterConf_ARR.asp" />
+    <Content Include="QCMasterDelConf.asp" />
+    <Content Include="QCMasterEdit.asp" />
+    <Content Include="QCMasterEditConf.asp" />
+    <Content Include="QCMasterEditConf_ARR.asp" />
+    <Content Include="QCMasterEditForm.asp" />
+    <Content Include="QCMasterReport.asp" />
+    <Content Include="QCMasterSelect.asp" />
+    <Content Include="QCMiscPrint.asp" />
+    <Content Include="QCMiscPrintLabels.asp" />
+    <Content Include="QCMiscReport.asp" />
+    <Content Include="QCPasswordDelete.asp" />
+    <Content Include="QCReportActiveEXCEL.ASP" />
+    <Content Include="QCReportEXCEL.ASP" />
+    <Content Include="QCSealantPrint.asp" />
+    <Content Include="QCSealantPrintLabels.asp" />
+    <Content Include="QCSealantReport.asp" />
+    <Content Include="QCSpacerPrint.asp" />
+    <Content Include="QCSpacerPrintLabels.asp" />
+    <Content Include="QCSpacerReport.asp" />
+    <Content Include="QCTEST_Butterfly.asp" />
+    <Content Include="QCTest_ButterflyConf.asp" />
+    <Content Include="QCTest_ButterflyEnter.asp" />
+    <Content Include="QCTest_Curing.asp" />
+    <Content Include="QCTest_CuringConf.asp" />
+    <Content Include="QCTest_CuringEnter.asp" />
+    <Content Include="QCTest_Desicant.asp" />
+    <Content Include="QCTest_DesicantConf.asp" />
+    <Content Include="QCTest_DesicantEnter.asp" />
+    <Content Include="QCTest_HotMelt.asp" />
+    <Content Include="QCTest_HotMeltConf.asp" />
+    <Content Include="QCTest_HotMeltEnter.asp" />
+    <Content Include="QCTest_SuperSpacer.asp" />
+    <Content Include="QCTest_SuperSpacerConf.asp" />
+    <Content Include="QCTest_SuperSpacerEnter.asp" />
+    <Content Include="QCTest_WaterFilter.asp" />
+    <Content Include="QCTest_WaterFilterConf.asp" />
+    <Content Include="QCTest_WaterFilterEnter.asp" />
+    <Content Include="qlogo.jpg" />
+    <Content Include="qlogoV.jpg" />
+    <Content Include="recbypo.asp" />
+    <Content Include="recbypoform.asp" />
+    <Content Include="redsquare.gif" />
+    <Content Include="ROD_BOM_finder.asp" />
+    <Content Include="ROD_BOM_JF.asp" />
+    <Content Include="ROD_BOM_REPORT.asp" />
+    <Content Include="RuslanInventory.asp" />
+    <Content Include="sapabypo.asp" />
+    <Content Include="sapabypo1.asp" />
+    <Content Include="ScanAwning.asp" />
+    <Content Include="ScanBackorder.asp" />
+    <Content Include="ScanDoor.asp" />
+    <Content Include="ScanGlassForel.asp" />
+    <Content Include="ScanGlassForel2.asp" />
+    <Content Include="ScanGlassForelUnscan.asp" />
+    <Content Include="ScanGlassSPService.asp" />
+    <Content Include="ScanGlassSPServiceTest.asp" />
+    <Content Include="ScanGlassWillian.asp" />
+    <Content Include="ScanGlassWillianUnscan.asp" />
+    <Content Include="ScanGlazing.asp" />
+    <Content Include="scanglazingconf.asp" />
+    <Content Include="ScanGlazingWindow.asp" />
+    <Content Include="ScanHBar.asp" />
+    <Content Include="ScanHbarMatching.asp" />
+    <Content Include="ScanHome.html" />
+    <Content Include="ScanHome_Texas.html" />
+    <Content Include="ScanJR.asp" />
+    <Content Include="ScanJRMatching.asp" />
+    <Content Include="scanning.asp" />
+    <Content Include="ScanPanel.asp" />
+    <Content Include="ScanPanelAll.asp" />
+    <Content Include="ScanPanelBEND.asp" />
+    <Content Include="ScanPanelCUT.asp" />
+    <Content Include="ScanPanelRECEIVE.asp" />
+    <Content Include="ScanPanelSHIP.asp" />
+    <Content Include="ScanPanelUnscan.asp" />
+    <Content Include="ScanSheets.asp" />
+    <Content Include="ScanToPrintReport.asp" />
+    <Content Include="Scan_Endyear.asp" />
+    <Content Include="ScreenSizeFix.asp" />
+    <Content Include="Scripts\bootstrap-notify.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ShipHome.html" />
+    <Content Include="ShipHomeManager.html" />
+    <Content Include="ShippingHome.html" />
+    <Content Include="ShippingHomeOld.html" />
+    <Content Include="ShippingHomeTest.html" />
+    <Content Include="ShippingHome_Texas.html" />
+    <Content Include="ShippingScanHomeTest.html" />
+    <Content Include="simple.html" />
+    <Content Include="style.css" />
+    <Content Include="stylePopUp.css" />
+    <Content Include="style_custom.css" />
+    <Content Include="submit.gif" />
+    <Content Include="table-job.png" />
+    <Content Include="table-zipper.png" />
+    <Content Include="te.css" />
+    <Content Include="Tempered.jpg" />
+    <Content Include="test.html" />
+    <Content Include="testflash.html" />
+    <Content Include="testflash2.html" />
+    <Content Include="WhiteStockLevels.asp" />
+    <Content Include="WindowInjectionConf.asp" />
+    <Content Include="WindowInjectionForm.asp" />
+    <Content Include="WindowRemakeConf.asp" />
+    <Content Include="WindowRemakeEditConf.asp" />
+    <Content Include="WindowRemakeEditForm.asp" />
+    <Content Include="WindowRemakeEnter.asp" />
+    <Content Include="WindowRemakeReport.asp" />
+    <Content Include="WIPperJob.asp" />
+    <Content Include="WIPperJob1.asp" />
+    <Content Include="xa7.asp" />
+    <Content Include="xwindowprod-restored.asp" />
+    <Content Include="xwindowprod.asp" />
+    <Content Include="xwindowprodBU.asp" />
+    <Content Include="xwindowprodgmail.asp" />
+    <Content Include="xwindowprodnew.asp" />
+    <Content Include="xwindowprodReport.asp" />
+    <Content Include="xwindowREV.asp" />
+    <Content Include="xwindowREVold.asp" />
+    <Content Include="xwindowSummary.asp" />
+    <Content Include="xWindowSummaryEnter.asp" />
+    <Content Include="ZipperActiveView.asp" />
+    <Content Include="zipperBlueReport.asp" />
+    <Content Include="ZipperCompletedView.asp" />
+    <Content Include="zipperConf.asp" />
+    <Content Include="ZipperEnter.asp" />
+    <Content Include="zipperRedReport.asp" />
+    <Content Include="zipperReport.asp" />
+    <Content Include="ZipperReportHistory.asp" />
+    <Content Include="ZipperShearTestReport.asp" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\palette-color-picker.js" />
+    <Content Include="Scripts\quest.js" />
+    <Content Include="sd1.asp" />
+    <Content Include="Sheetadd.asp" />
+    <Content Include="SheetConf.asp" />
+    <Content Include="SheetReduce.asp" />
+    <Content Include="SheetReduceConf.asp" />
+    <Content Include="SheetReport.asp" />
+    <Content Include="ShiftHardwareCornerJobFloor.asp" />
+    <Content Include="ShiftHardwareCornerPostKit.asp" />
+    <Content Include="ShiftHardwareCornerViewAll.asp" />
+    <Content Include="ShiftHardwareFrameKit.asp" />
+    <Content Include="ShiftHardwareJobFloor.asp" />
+    <Content Include="ShiftHardwareKittingReport.asp" />
+    <Content Include="ShiftHardwareKittingReportEmail.asp" />
+    <Content Include="ShiftHardwareLabel.asp" />
+    <Content Include="ShiftHardwareLabelBU.asp" />
+    <Content Include="ShiftHardwareSashKit.asp" />
+    <Content Include="ShiftHardwareView1.asp" />
+    <Content Include="ShiftHardwareViewAll.asp" />
+    <Content Include="ShipFloorClosed.asp" />
+    <Content Include="ShipFloorOpen.asp" />
+    <Content Include="ShipFloorSearch.asp" />
+    <Content Include="ShipFloorViewer.asp" />
+    <Content Include="ShippingOtherLabelEnter.asp" />
+    <Content Include="ShippingOtherLabel_v1.asp" />
+    <Content Include="ShippingReportClosed.asp" />
+    <Content Include="ShippingReportJob.asp" />
+    <Content Include="ShippingReportJob1.asp" />
+    <Content Include="ShippingReportOpen.asp" />
+    <Content Include="ShippingTruckClose.asp" />
+    <Content Include="ShippingTruckCloseConf.asp" />
+    <Content Include="ShippingTruckCloseConfTest.asp" />
+    <Content Include="ShippingTruckCloseGmail.asp" />
+    <Content Include="ShippingTruckCloseGmailTest.asp" />
+    <Content Include="ShippingTruckCloseReport.asp" />
+    <Content Include="ShippingTruckCloseReportBU.asp" />
+    <Content Include="shippingtruckcloseresport.asp" />
+    <Content Include="ShippingTruckCloseTest.asp" />
+    <Content Include="ShippingTruckCompare.asp" />
+    <Content Include="ShippingTruckCompare1.asp" />
+    <Content Include="ShippingTruckCompareBACKUP.asp" />
+    <Content Include="ShippingTruckCompareEnter.asp" />
+    <Content Include="ShippingTruckEdit.asp" />
+    <Content Include="ShippingTruckEditConf.asp" />
+    <Content Include="ShippingTruckEditConfTest.asp" />
+    <Content Include="ShippingTruckEditForm.asp" />
+    <Content Include="ShippingTruckEditFormTest.asp" />
+    <Content Include="ShippingTruckEditTest.asp" />
+    <Content Include="ShippingTruckFullReport.asp" />
+    <Content Include="ShippingTruckHistory.asp" />
+    <Content Include="ShippingTruckOpen.asp" />
+    <Content Include="ShippingTruckOpenConf.asp" />
+    <Content Include="ShippingTruckOpenConfTest.asp" />
+    <Content Include="ShippingTruckOpenTest.asp" />
+    <Content Include="ShippingTruckReopen.asp" />
+    <Content Include="ShippingTruckReOpenConf.asp" />
+    <Content Include="ShippingTruckReOpenConfTest.asp" />
+    <Content Include="ShippingTruckReopenTest.asp" />
+    <Content Include="ShippingTruckScan.asp" />
+    <Content Include="ShippingTruckScanTest.asp" />
+    <Content Include="ShippingTruckScanTest20190625.asp" />
+    <Content Include="ShippingTruckView.asp" />
+    <Content Include="ShippingTruckViewEnter.asp" />
+    <Content Include="ShippingTruckViewer.asp" />
+    <Content Include="ShippingTruckViewerExcel.asp" />
+    <Content Include="ShipReportClosed.asp" />
+    <Content Include="ShipReportClosedExcel.asp" />
+    <Content Include="ShipReportOpen.asp" />
+    <Content Include="ShipTruckClose.asp" />
+    <Content Include="ShipTruckCloseConf.asp" />
+    <Content Include="ShipTruckCloseConfMichelle.asp" />
+    <Content Include="ShipTruckCloseGmail.asp" />
+    <Content Include="ShipTruckCloseGmailMichelle.asp" />
+    <Content Include="ShipTruckCloseMichelle.asp" />
+    <Content Include="ShipTruckDeleteList.asp" />
+    <Content Include="ShipTruckEdit.asp" />
+    <Content Include="ShipTruckEditConf.asp" />
+    <Content Include="ShipTruckEditForm.asp" />
+    <Content Include="ShipTruckMonitor.asp" />
+    <Content Include="ShipTruckOpen.asp" />
+    <Content Include="ShipTruckOpen2.asp" />
+    <Content Include="ShipTruckOpenConf.asp" />
+    <Content Include="ShipTruckOpenConf2.asp" />
+    <Content Include="ShipTruckOpenConfPrint.asp" />
+    <Content Include="ShipTruckReopen.asp" />
+    <Content Include="ShipTruckReOpenConf.asp" />
+    <Content Include="ShipTruckScan.asp" />
+    <Content Include="ShipTruckScanDelete.asp" />
+    <Content Include="ShipTruckScanDeleteConf.asp" />
+    <Content Include="ShipTruckScanManager.asp" />
+    <Content Include="ShipTruckViewer.asp" />
+    <Content Include="ShipTruckViewerBU.asp" />
+    <Content Include="ShipTruckViewerExcel.asp" />
+    <Content Include="ShipTruckViewerGmail.asp" />
+    <Content Include="ShipTruckViewerGmailMichelle.asp" />
+    <Content Include="shnew.asp" />
+    <Content Include="shrep.asp" />
+    <Content Include="shrepb.asp" />
+    <Content Include="shreport.asp" />
+    <Content Include="shreportb.asp" />
+    <Content Include="shscan 2 or more boxes idea.asp" />
+    <Content Include="shscan.asp" />
+    <Content Include="shscan2.asp" />
+    <Content Include="shscanmulti.asp" />
+    <Content Include="skidadd.asp" />
+    <Content Include="skiddelete.asp" />
+    <Content Include="Skidflush.asp" />
+    <Content Include="SkidPrint.asp" />
+    <Content Include="skidremove.asp" />
+    <Content Include="SkidReport.asp" />
+    <Content Include="SkidSearch.asp" />
+    <Content Include="skidSearchResults.asp" />
+    <Content Include="SkidSelect.asp" />
+    <Content Include="SkidUnflush.asp" />
+    <Content Include="SnapshotGlassSelect.asp" />
+    <Content Include="SnapshotGlassValue.asp" />
+    <Content Include="SnapshotGlassValueOld.asp" />
+    <Content Include="SnapshotGlassValueTest.asp" />
+    <Content Include="SnapshotHARDWARESelect.asp" />
+    <Content Include="SnapshotHardwareValue.asp" />
+    <Content Include="SnapshotHardwareValueDiff.asp" />
+    <Content Include="SnapshotPlasticSelect.asp" />
+    <Content Include="SnapshotPlasticValue.asp" />
+    <Content Include="SpandrelcolorReport.asp" />
+    <Content Include="SPServiceReport.asp" />
+    <Content Include="SQFTPerJobFloorReport.asp" />
+    <Content Include="SQFTPerJobFloorReportExcel.asp" />
+    <Content Include="SQFTReport.asp" />
+    <Content Include="SQFTReport2013.asp" />
+    <Content Include="SQFTReport2014.asp" />
+    <Content Include="SQFTReport2015.asp" />
+    <Content Include="SQFTReport2016.asp" />
+    <Content Include="SQFTReport2017.asp" />
+    <Content Include="SQFTReport2018.asp" />
+    <Content Include="SQFTReportSearch.asp" />
+    <Content Include="SQLEXCEL.ASP" />
+    <Content Include="SQLvalue.asp" />
+    <Content Include="stock.asp" />
+    <Content Include="stock2.asp" />
+    <Content Include="stockbcscan.asp" />
+    <Content Include="stockbcx.asp" />
+    <Content Include="stockbi.asp" />
+    <Content Include="stockbu.asp" />
+    <Content Include="stockbyaisle.asp" />
+    <Content Include="stockbyaisleM.asp" />
+    <Content Include="stockbyaisleN.asp" />
+    <Content Include="stockbyaislePrep.asp" />
+    <Content Include="stockbycolor.asp" />
+    <Content Include="stockbyColorCodeSheet.asp" />
+    <Content Include="stockbycolorPrep.asp" />
+    <Content Include="stockbycolorSHEET.asp" />
+    <Content Include="stockbycolorTable.asp" />
+    <Content Include="stockbycolorTableExcel%28old%29.asp" />
+    <Content Include="stockbycolorTableExcel.asp" />
+    <Content Include="stockbydie.asp" />
+    <Content Include="stockbydiebu.asp" />
+    <Content Include="stockbydieDH.asp" />
+    <Content Include="stockbydieDHTable.asp" />
+    <Content Include="stockbydieDurapaint.asp" />
+    <Content Include="stockbydieDurapaintTable.asp" />
+    <Content Include="StockbyDieHorner.asp" />
+    <Content Include="stockbydieHornerTable.asp" />
+    <Content Include="stockbydieTable.asp" />
+    <Content Include="StockbyDieTilton.asp" />
+    <Content Include="stockbydieTiltonTable.asp" />
+    <Content Include="StockbyDieTorbram.asp" />
+    <Content Include="stockbydieTorbramTable.asp" />
+    <Content Include="stockbypendingdate.asp" />
+    <Content Include="stockbypendingdate1.asp" />
+    <Content Include="stockbypic.asp" />
+    <Content Include="stockbypo.asp" />
+    <Content Include="stockbypo1.asp" />
+    <Content Include="stockbyrack.asp" />
+    <Content Include="stockbyrack2.asp" />
+    <Content Include="stockbyrack2M.asp" />
+    <Content Include="stockbyrack2N.asp" />
+    <Content Include="stockbyrack2Prep.asp" />
+    <Content Include="stockbyrack2table.asp" />
+    <Content Include="stockbyrack2tableM.asp" />
+    <Content Include="stockbyrack2tableN.asp" />
+    <Content Include="stockbyrackedit.asp" />
+    <Content Include="stockbyrackeditconf.asp" />
+    <Content Include="stockbyrackeditflush.asp" />
+    <Content Include="stockbywarehouseTable.asp" />
+    <Content Include="stockbywarehouseTableTemp.asp" />
+    <Content Include="stockcolorALL.asp" />
+    <Content Include="stockcolorcodelistSHEET.asp" />
+    <Content Include="stockcolorlist.asp" />
+    <Content Include="stockcolorlistPrep.asp" />
+    <Content Include="stockcolorlistSHEET.asp" />
+    <Content Include="stockdel.asp" />
+    <Content Include="stockdelconf.asp" />
+    <Content Include="stockdelform.asp" />
+    <Content Include="stockdet.asp" />
+    <Content Include="stockedit.asp" />
+    <Content Include="stockeditcolour.asp" />
+    <Content Include="stockeditcolourcode.asp" />
+    <Content Include="stockeditcolourTable.asp" />
+    <Content Include="stockeditconf.asp" />
+    <Content Include="stockeditform.asp" />
+    <Content Include="StockEditMill.asp" />
+    <Content Include="stockgbybundle.asp" />
+    <Content Include="stockgbybundle1.asp" />
+    <Content Include="stockgbynopo.asp" />
+    <Content Include="stockgbypo.asp" />
+    <Content Include="stockgbypo1.asp" />
+    <Content Include="stockhydro.asp" />
+    <Content Include="stockin.asp" />
+    <Content Include="stockintest.asp" />
+    <Content Include="StockLengthDrillDown.asp" />
+    <Content Include="STOCKLevels.asp" />
+    <Content Include="STOCKLevelsbyC.asp" />
+    <Content Include="STOCKLevelsDH.asp" />
+    <Content Include="STOCKLevelsDH_Old.asp" />
+    <Content Include="STOCKLevelsDurapaint.asp" />
+    <Content Include="STOCKLevelsHorner.asp" />
+    <Content Include="STOCKLevelsMill.asp" />
+    <Content Include="STOCKLevelsMilvan.asp" />
+    <Content Include="STOCKLevelsNew.asp" />
+    <Content Include="STOCKLevelsSummary.asp" />
+    <Content Include="STOCKLevelsSummaryCCode.asp" />
+    <Content Include="STOCKLevelsSummaryCCodeBU.asp" />
+    <Content Include="STOCKLevelsSummaryCCodeExcel.asp" />
+    <Content Include="STOCKLevelsSummaryEX.asp" />
+    <Content Include="STOCKLevelsSummaryExcel.asp" />
+    <Content Include="STOCKLevelsSummaryPL.asp" />
+    <Content Include="STOCKLevelsSummarySH-old.asp" />
+    <Content Include="STOCKLevelsSummarySH.asp" />
+    <Content Include="STOCKLevelsTilton.asp" />
+    <Content Include="STOCKLevelsTorbram.asp" />
+    <Content Include="STOCKLevelsTotal.asp" />
+    <Content Include="StocklevelsWarehouse.asp" />
+    <Content Include="StockLevelsWarehouse1.asp" />
+    <Content Include="STOCKLevelsWhite.asp" />
+    <Content Include="stockMOVEconf.asp" />
+    <Content Include="stocknewdie.asp" />
+    <Content Include="stockoldReport.asp" />
+    <Content Include="stockoldReportG.asp" />
+    <Content Include="stockoldReportN.asp" />
+    <Content Include="stockother.asp" />
+    <Content Include="stockpending.asp" />
+    <Content Include="stockpendingflush.asp" />
+    <Content Include="stockpendingNew.asp" />
+    <Content Include="stockpendingtable.asp" />
+    <Content Include="stockproductionday1.asp" />
+    <Content Include="STOCKREPORT.asp" />
+    <Content Include="STOCKREPORT2.asp" />
+    <Content Include="StockReportPlastic.asp" />
+    <Content Include="StockReportPrepMaterial.asp" />
+    <Content Include="STOCKREPORTQ12013.asp" />
+    <Content Include="STOCKREPORTScrap.asp" />
+    <Content Include="STOCKREPORTSCRAPDEC.asp" />
+    <Content Include="STOCKREPORTSCRAPNOV.asp" />
+    <Content Include="StockReportSheet.asp" />
+    <Content Include="STOCKREPORT_HARDWARE.asp" />
+    <Content Include="StockReport_New.asp" />
+    <Content Include="stocksapa.asp" />
+    <Content Include="StockSelect.asp" />
+    <Content Include="StockSelectTemp.asp" />
+    <Content Include="stockStatusCC.asp" />
+    <Content Include="stockstatusEmail.asp" />
+    <Content Include="stockStatusMW.asp" />
+    <Content Include="stockStatusMW_Hardware.asp" />
+    <Content Include="stockStatusTable.asp" />
+    <Content Include="stockTemp.asp" />
+    <Content Include="stocktoday.asp" />
+    <Content Include="stocktodayEmail.asp" />
+    <Content Include="stocktodaytable.asp" />
+    <Content Include="stockweek.asp" />
+    <Content Include="stockweektable.asp" />
+    <Content Include="StyleStudy.asp" />
+    <Content Include="styles\loading.css" />
+    <Content Include="styles\palette-color-picker.css" />
+    <Content Include="styles\questTables.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="styles\questStyle.css" />
+    <Content Include="supp_report.asp" />
+    <Content Include="sw1.asp" />
+    <Content Include="temp1.asp" />
+    <Content Include="Temp_DurapaintWIP.asp" />
+    <Content Include="test.asp" />
+    <Content Include="testcsv.asp" />
+    <Content Include="TestEmail.asp" />
+    <Content Include="testflash.asp" />
+    <Content Include="testflash2.asp" />
+    <Content Include="TestingAccuracyConf.asp" />
+    <Content Include="TestingAccuracyForm.asp" />
+    <Content Include="TestingAccuracyReport.asp" />
+    <Content Include="testini.asp" />
+    <Content Include="testShaun.asp" />
+    <Content Include="Test_Console.asp" />
+    <Content Include="TexasValueExtrusion.asp" />
+    <Content Include="TexasValueExtrusionList.asp" />
+    <Content Include="TexasValueHardware.asp" />
+    <Content Include="TexasValueHardwareList.asp" />
+    <Content Include="TEXAS_dbpath.asp" />
+    <Content Include="te_config copy.asp" />
+    <Content Include="te_config.asp" />
+    <Content Include="te_config1.asp" />
+    <Content Include="te_config2.asp" />
+    <Content Include="te_footer.asp" />
+    <Content Include="te_header.asp" />
+    <Content Include="te_includes.asp" />
+    <Content Include="te_includes1.asp" />
+    <Content Include="te_includes2.asp" />
+    <Content Include="te_logout.asp" />
+    <Content Include="TodayAndYesterday.asp" />
+    <Content Include="TorbramReportValue.asp" />
+    <Content Include="txa7.asp" />
+    <Content Include="VerticalMachineReportDaily.asp" />
+    <Content Include="warehousebypo.asp" />
+    <Content Include="warehousebypo1.asp" />
+    <Content Include="WarGamesLabelPrint.asp" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shipping\ShippingLabelColor.cshtml" />
+    <Content Include="Views\Shipping\Printers.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\Authentication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Quest.Framework.Data\Quest.Framework.Data.csproj">
+      <Project>{8e96051a-7d63-4eb3-82b5-4ab48f300789}</Project>
+      <Name>Quest.Framework.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quest.QuestTools.Business\Quest.QuestTools.Business.csproj">
+      <Project>{793553cb-281a-466f-9f68-050bf9d9ab13}</Project>
+      <Name>Quest.QuestTools.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51132</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56774/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\Quest.Framework.Data\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\Quest.Framework.Data\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

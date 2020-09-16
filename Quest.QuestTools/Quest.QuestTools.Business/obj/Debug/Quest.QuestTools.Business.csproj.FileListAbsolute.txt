@@ -1,0 +1,14 @@
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.QuestTools.Business.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.QuestTools.Business.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.Framework.Data.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\EntityFramework.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.Framework.Data.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\EntityFramework.xml
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Debug\Quest.QuestTools.Business.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Debug\Quest.QuestTools.Business.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Debug\Quest.QuestTools.Business.csproj.CopyComplete
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Debug\Quest.QuestTools.Business.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\obj\Debug\Quest.QuestTools.Business.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.Framework.Persistence.dll
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.Framework.Persistence.pdb
+C:\Quest_Dev\Quest.QuestTools\Quest.QuestTools.Business\bin\Debug\Quest.Framework.Persistence.dll.config

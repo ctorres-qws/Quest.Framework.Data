@@ -1,0 +1,104 @@
+A  {
+	font-size : xx-small;
+	color : #000000;
+	text-decoration : underline;
+}
+
+A:Visited  {
+	color : #8b008b;
+	text-decoration : underline;
+}
+
+A:Active  {
+	text-decoration : underline;
+}
+
+A:Hover  {
+	text-decoration : underline;
+}
+
+BODY  {
+	font-size : xx-small;
+	font-family : Verdana;
+	color : #000000;
+}
+
+.smallheader  {
+	font-size : x-small;
+	font-weight : bold;
+}
+
+.smallerheader  {
+	font-weight : bold;
+	font-size : xx-small;
+}
+
+.smalltext  {
+	font-size : xx-small;
+}
+
+.smallertext  {
+	font-size : xx-small;
+}
+
+.tbflat  {
+	border:1px solid #008080; font-size : xx-small;
+	font-family : Verdana;
+	
+}
+
+.tvflat  {
+font-size : x-small;
+font-family : Arial;
+padding: 2px 10px 3px 10px; 
+border: 2px outset #5AA0B8; 
+background: #000076; 
+color: #FFF; 
+text-decoration: none; 
+height: 26px; 
+vertical-align: bottom;
+
+
+	
+}
+
+.cmdflat  {
+	font-size : xx-small;
+	font-family : Verdana;
+	background-color : #30309F;
+	color : #FFFFFF;
+	font-weight : bold;
+	
+}
+/*Added By Michael Bernholtz - December 2014 - Button code for style Fancy
+ */
+
+#fancy {
+  background: #1d9cf0;
+  background-image: -webkit-linear-gradient(top, #1d9cf0, #2980b9);
+  background-image: -moz-linear-gradient(top, #1d9cf0, #2980b9);
+  background-image: -ms-linear-gradient(top, #1d9cf0, #2980b9);
+  background-image: -o-linear-gradient(top, #1d9cf0, #2980b9);
+  background-image: linear-gradient(to bottom, #1d9cf0, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+#fancy:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+  
+/*Added By Michael Bernholtz - December 2014 - Button code for style Fancy
+ */

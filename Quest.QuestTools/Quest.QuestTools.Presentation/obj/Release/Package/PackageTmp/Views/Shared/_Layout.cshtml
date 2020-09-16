@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="~/styles/loading.css" rel="stylesheet" />
+    <link href="~/styles/palette-color-picker.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+    <link href="~/styles/questStyle.css" rel="stylesheet" />
+    <link href="~/styles/questTables.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/palette-color-picker.js"></script>
+    <script src="~/Scripts/quest.js"></script>
+
+    <script src="~/Scripts/bootstrap-notify.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+            crossorigin="anonymous"
+            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+
+        body {
+            font-family: Arial;
+            font-size: 12px;
+        }
+
+        text {
+            font-size: 12px !important;
+        }
+
+        .navbar-nav > li > a {
+            color: #15a9df !important
+        }
+
+
+
+        .btn-primary:hover {
+            color: rgb(199, 199, 199);
+        }
+
+        .title-main {
+            background-color: rgb(255,255,255) !important;
+            padding-left: 0px;
+        }
+        /* 237 */
+        div.dt-buttons {
+            float: right;
+            background-image: -webkit-linear- none !important;
+            background-image: none !important;
+        }
+
+        input {
+            width: 120px !important;
+            border: 1px solid rgb(221,221,221) !important;
+            border-radius: 5px;
+            margin-bottom: 5px !important;
+            height: 30px !important;
+        }
+
+        #dialog-form > fieldset > input {
+            width: 90% !important;
+        }
+
+        .ui-dialog .ui-dialog-content {
+            overflow: hidden !important;
+        }
+
+        fieldset {
+            border: 1px solid rgb(221,221,221);
+            border-radius: 5px;
+            margin-bottom: 11px;
+            width: 100%;
+        }
+
+        .csDialogRow {
+            xborder: 1px solid black;
+            clear: both;
+        }
+
+            .csDialogRow > label {
+                width: 120px;
+                float: left !important;
+                xborder: 1px solid black;
+            }
+
+            .csDialogRow > input {
+                width: 440px !important;
+                float: left !important;
+                xborder: 1px solid black;
+                margin-left: 0px !important;
+                margin-top: 0px !important;
+                padding-left: 5px !important;
+            }
+
+        .row > input:not([type|=radio]):not([type|=checkbox]) {
+            padding-left: 5px !important;
+        }
+
+        .row > table > tbody > tr > td > input:not([type|=radio]):not([type|=checkbox]) {
+            padding-left: 5px !important;
+        }
+
+        select {
+            border: 1px solid rgb(221,221,221) !important;
+            border-radius: 5px;
+            padding: 3px 3px 3px 3px;
+            margin-bottom: 5px;
+            height: 35px;
+            font-size: 16px;
+        }
+
+        body.landscape > .toolbar > h1 {
+            width: 350px !important;
+        }
+
+        .csSearch > tbody > tr > td {
+            padding-left: 20px;
+        }
+
+        .csTData {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .csTDataAmt {
+            text-align: right;
+            padding-right: 5px;
+            font-size: 13px;
+        }
+
+        .csCheckBox {
+            width: 20px !important;
+        }
+
+
+        .container-fluid {
+            padding: 0;
+        }
+
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header-banner-small"></div>
+        <div class="row" id="pageHeader" style="border-bottom: 1px solid rgb(221,221,221);width: 100%;">
+
+
+            <nav class="navbar-white navbar-nobottom col-xl-4">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index1.asp"><img src="~/images/full-logo.png" class="App-logo" alt="logo"></a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".bsNavCollapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <h2 class="header col-lg-4 p-3 mb-0">@ViewBag.Title</h2>
+        </div>
+        <div class="container-fluid body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

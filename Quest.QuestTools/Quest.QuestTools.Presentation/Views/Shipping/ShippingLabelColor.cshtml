@@ -1,0 +1,385 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Web.Script.Serialization
+@using Newtonsoft.Json.Linq
+@using Newtonsoft.Json
+@using Quest.QuestTools.Presentation.Models
+@model ShippingLabelColorViewModel
+<style type="text/css">
+    #jobColorsTable {
+        width: 85%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .btn-primary {
+        float: right;
+        margin-right: 8%;
+        margin-bottom: 2%;
+    }
+    #jobColorsTable_wrapper {
+        padding: 1.5rem 1.5rem 0rem 1.5rem;
+        width: 100%;
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        width: 140px;
+    }
+    #jobColorsTable_filter {
+        float: left;
+        margin-left: 9rem;
+    }
+    .loadingImage {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: 3rem;
+        position: relative;
+        left: 35rem;
+        bottom: 1rem;
+    }
+    .align-baseline {
+        align-items: baseline;
+    }
+    .align-center {
+        align-items: center;
+    }
+    .dataTables_paginate {
+        padding-right: 6rem !important;
+    }
+    .dataTables_paginate .paginate_button:hover {
+        color: inherit !important;
+        background-color: transparent !important;
+        border: transparent !important;
+        background: white !important;
+    }
+        .dataTables_paginate .paginate_button:active {
+            color: inherit !important;
+            background-color: transparent !important;
+            border: transparent !important;
+            background: white !important;
+        }
+</style>
+<script type="text/javascript">
+    var jobColorChangesList = [];
+    var jobList = [];
+    var pageLog = "";
+
+    function addColorChange(job, hexValue) {
+        debugger;
+        var index = jobColorChangesList.findIndex(x => x.Job == job);
+        if (index >= 0) {
+            jobColorChangesList[index].ShippingLabelColor = hexValue;
+            jobColorChangesList[index].IsModified = true;
+        }
+        else {
+            jobColorChangesList.push({
+                Job: job,
+                ShippingLabelColor: hexValue,
+                IsModified: false
+            });
+        }
+    }
+    function initializePage() {
+        fillTable();
+
+        $('[name="ppNewColorAssg_Color"]').paletteColorPicker({
+            colors: JSON.parse($("#colorsCatalog").text()),
+            clear_btn: null,
+            close_all_but_this: true
+
+        });
+        $('#newColorModal').on('hidden.bs.modal', function () {
+            Modal_OnClosing();
+        });
+    }
+    function validateSession() {
+        var userData = JSON.parse($("#userData").text())
+        if (userData == undefined) {
+            showLogInModal();
+            $("#btnSignIn").text("Sign In");
+        }
+        else {
+            $("#btnSignIn").text("Sign Out");
+        }
+    }
+    function btnAssignNewColor_OnClick() {
+        ShowModal();
+    }
+    function fillTable() {
+        $("#tableContainer").empty();
+        jobColorChangesList = [];
+        var data = JSON.parse($("#shippingLabelColorsData").text());
+        var tblHtml = '<table id="jobColorsTable" class="csTable">';
+        tblHtml += '    <thead>';
+        tblHtml += "    <tr style='height: 2.4rem; border - bottom: 1px solid; '><th style='text - align: center; '>Job</th><th>Color name</th><th>HEX</th><th style='text - align: center; '>Color</th></tr>";
+        tblHtml += '        </thead >';
+        tblHtml += '    <tbody id="jobColorsTableBody">';
+        tblHtml += '   </tbody>';
+        tblHtml += '   </table >';
+        $("#tableContainer").html(tblHtml)
+        debugger;
+        data.forEach(function (item) {
+            var tr = document.createElement('tr');
+
+            var html = "<td style='text-align: center;'>" + item.Job + "</td>";
+            html += "<td id='ColorName_" + item.Job + "'>" + item.ColorName + "</td>";
+            html += "<td id='HEX_" + item.Job + "'>" + item.ShippingLabelColor + "</td>";
+            html += "<td style='text-align: center;'><input type=\"text\" id='" + item.Job + "_Color' name='" + item.Job + "_Color' style=\"display: none;\" value='" + item.ColorHexRGB + "'></td>";
+
+            tr.innerHTML = html;
+            document.getElementById("jobColorsTableBody").appendChild(tr);
+            renderOptionsColorsDropDownList(item.Job + "_Color");
+            if (item.ShippingLabelColor != "") {
+                colorPickerInitialization(item.Job, item.ShippingLabelColor);
+                addColorChange(item.Job, item.ShippingLabelColor);
+            }
+        });
+
+        $('#jobColorsTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": false,
+            "filtering": true,
+            dom: '<"toolbar">frtip',
+            fnInitComplete: function () {
+                $('div.toolbar').html('<button id="btnAssignNewColor" onclick="btnAssignNewColor_OnClick()" type="button" class="btn btn-sm btn-primary float-right">Select a new job</button>');
+            }
+        });
+    }
+    function renderOptionsColorsDropDownList(name) {
+        debugger;
+        $('[name="' + name + '"]').paletteColorPicker({
+            colors: JSON.parse($("#colorsCatalog").text()),
+            custom_class: 'double',
+            insert: 'after',
+            clear_btn: null
+
+        });
+        //$('[data-color="'+ value +'"]').click()
+    }
+    function onColorSelected(name, target) {
+        debugger;
+        if (target != "ppNewColorAssg_Color") {
+            var jobName = target.substring(0, 3);
+            var hexValue = "";
+            if (name == undefined) {
+                $("#HEX_" + jobName).text("");
+
+                $("#ColorName_" + jobName).text("");
+            }
+            else {
+                hexValue = name.substring(name.length - 7);
+
+                $("#HEX_" + jobName).text(hexValue);
+
+                $("#ColorName_" + jobName).text(name.substring(0, name.length - 10));
+            }
+            addColorChange(jobName, hexValue);
+        }
+    }
+    function validateColorSelection(hexValue, color, job) {
+        if (hexValue != '#FFC0CB' && jobColorChangesList.findIndex(x => x.ShippingLabelColor == hexValue) >= 0) {
+            var existingJob = jobColorChangesList.find(x => x.ShippingLabelColor == hexValue).Job;
+            debugger;
+            var data = JSON.parse($("#jobs").text());
+
+            var parentSelectedJob = data.find(x => x.JOB == job).Job_Address;
+            var parentExistingJob = data.find(x => x.JOB == existingJob).Job_Address;
+
+            if (parentSelectedJob == parentExistingJob)
+                return true;
+
+            showWarningAlert(color + " color is already in use.")
+            return false;
+        }
+        return true;
+
+    }
+    function getParent(job) {
+        var data = JSON.parse($("#shippingLabelColorsData").text());
+
+        var jobIndex = data.findIndex(x => x.Job == job);
+
+        var jobData = data[jobIndex];
+
+        return jobData.Parent;
+    }
+    function colorPickerInitialization(job, color) {
+        var span = $("[data-target='" + job + "_Color']").find("[data-color='#000080']");
+        $bubble = span.closest('.palette-color-picker-bubble');
+
+        $button = $('.palette-color-picker-button[data-target="' + $(span).closest('.palette-color-picker-button').attr('data-target') + '"]')
+        $bubble.find('.active').removeClass('active');
+
+        $(span).addClass('active');
+        $button.css('background', color);
+    }
+    function setLoadingImageInTable() {
+        $("#jobColorsTableBody").html(getLoadingImgHtml());
+    }
+    function saveChanges() {
+        debugger;
+
+        setLoadingImageInTable();
+        performAjaxRequest(
+            "@Url.Action("SaveJobColorChanges")", //url
+            jobColorChangesList, 					//params
+            function (data) {							//function in case of success
+                debugger;
+                showSuccessAlert("Data updated successfully!")
+                $("#shippingLabelColorsData").text(JSON.stringify(data));
+                fillTable();
+
+            },
+            function (msg) {							//function in case of failure
+                pageLog = msg;
+            },
+            function (msg) {							//function which will be executed
+                pageLog = msg;
+            });
+    }
+    function HideModal() {
+        $('#newColorModal').modal('hide');
+    }
+    function ShowModal() {
+        $("#ddlJob").empty();
+        getDataThroughAjaxRequest("@Url.Action("GetJobs")", function (data) {
+            jobList = data;
+            var optionsHTML = "";
+            data.forEach(function (item) {
+                optionsHTML += "<option>" + item.JOB + "</option>";
+            });
+            $("#ddlJob").html(optionsHTML);
+            debugger;
+            $('#newColorModal').modal('show');
+        }, null, null);
+
+
+
+
+    }
+    function Modal_OnClosing() {
+        $('.palette-color-picker-button[data-target="' +
+            $(document.getElementsByClassName("swatch clear last")[0]).closest('.palette-color-picker-button').attr('data-target') + '"]').removeAttr('style');
+    }
+    function assignNewColor() {
+        if ($("#ppNewColorAssg_Color").val() == "") {
+            showDangerAlert("Please select a color");
+            return;
+        }
+        HideModal();
+        setLoadingImageInTable();
+        performAjaxRequest("@Url.Action("AssignNewColor")",
+            {
+                Job: $("#ddlJob").val(),
+                Color: $("#ppNewColorAssg_Color").val().split('-')[1].trim()
+            }, function (data) {
+                showSuccessAlert("Data updated successfully!")
+                $("#shippingLabelColorsData").text(JSON.stringify(data));
+                fillTable();
+            }, null, null);
+
+    }    
+    function showOnlyAvailableColors(e) {
+        debugger;
+        
+        var jb = $(e.currentTarget).attr('data-target').split('_')[0];
+        var list = e.currentTarget.children[0].children;
+        if (jb == 'ppNewColorAssg') {
+            jb = $('#ddlJob').val();
+
+            for (var i = 0; i < list.length; i++) {
+
+                var item = $(list[i]);
+
+                var itemColor = $(e.currentTarget.children[0].children[i]).attr('data-color');
+                item.removeClass('active');
+                debugger;
+                checkIfColorIsAvailable(itemColor, item, jb);
+
+            }
+
+        }
+        else {
+            var clr = jobColorChangesList.find(g => g.Job == jb).ShippingLabelColor;            
+            for (var i = 0; i < list.length; i++) {
+
+                var item = $(list[i]);
+
+                var itemColor = $(e.currentTarget.children[0].children[i]).attr('data-color');
+                if (itemColor == clr)
+                    item.addClass('active');
+                else {
+                    item.removeClass('active');
+                    debugger;
+                    checkIfColorIsAvailable(itemColor, item, jb);
+
+                }
+
+            }
+
+        }
+
+    }
+
+    function checkIfColorIsAvailable(itemColor, item, job) {
+        if (itemColor != '#FFC0CB' && jobColorChangesList.findIndex(x => x.ShippingLabelColor == itemColor) >= 0) {
+            var itemJob = jobColorChangesList.find(x => x.ShippingLabelColor == itemColor).Job;
+            var data = JSON.parse($("#jobs").text());
+
+            var parentSelectedJob = data.find(x => x.JOB == job).Job_Address;
+            var parentItemJob = data.find(x => x.JOB == itemJob).Job_Address;
+            if (parentSelectedJob != parentItemJob) {
+                item.css('display', 'none');
+            }
+            else
+                item.css('display', 'inline-block');
+        }
+        else
+            item.css('display', 'inline-block');
+    }
+</script>
+<div id="shippingLabelColorsData" style="display:none">@JsonConvert.SerializeObject(Model.JobShippingColors)</div>
+<div id="colorsCatalog" style="display:none">@JsonConvert.SerializeObject(Model.Colors)</div>
+<div id="jobs" style="display:none">@JsonConvert.SerializeObject(Model.Jobs)</div>
+<div id="userData" style="display:none">@JsonConvert.SerializeObject(Model.User)</div>
+<div class="row" style="opacity: 1; background-color: white; padding: 5px; margin: 5px;height: 100%;">
+    @*<h2 style="text-align: center;margin-bottom: 1.5rem;"></h2>*@
+    <fieldset>
+        <div id="tableContainer" class="row" style="padding: 5px;">
+            
+        </div>
+        <button id="btnSaveChanges" onclick="saveChanges()" type="button" class="btn btn-sm btn-primary" style="margin-right:9%;">Save changes</button>
+
+    </fieldset>
+
+</div>
+<div class="modal fade" id="newColorModal" tabindex="-1" role="dialog" aria-labelledby="newColorModalTitle">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="idTitle"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row mb-2 align-center">
+                        <label class="col-3" for="ddlJob">Job</label>
+                        <select class="col-3" id="ddlJob"></select>
+                        <div class="col-1"></div>
+                        <label class="col-3" for="ppNewColorAssg_Color">color</label>
+                        <input type="text" id="ppNewColorAssg_Color" style="display:none;" name="ppNewColorAssg_Color">
+                    </div>
+                </div>
+                <div class="modal-footer align-baseline">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="btnSaveChanges" type="button" onclick="assignNewColor()" class="btn btn-sm btn-primary" >Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<!--#include file="dbpath.asp"-->
+<%
+
+
+
+%>

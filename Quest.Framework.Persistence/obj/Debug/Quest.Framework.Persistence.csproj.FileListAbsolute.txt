@@ -1,0 +1,12 @@
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\Quest.Framework.Persistence.dll.config
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\Quest.Framework.Persistence.dll
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\Quest.Framework.Persistence.pdb
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\EntityFramework.dll
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\EntityFramework.xml
+C:\Quest_Dev\Quest.Framework.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Quest_Dev\Quest.Framework.Persistence\obj\Debug\Quest.Framework.Persistence.csprojAssemblyReference.cache
+C:\Quest_Dev\Quest.Framework.Persistence\obj\Debug\Quest.Framework.Persistence.csproj.CoreCompileInputs.cache
+C:\Quest_Dev\Quest.Framework.Persistence\obj\Debug\Quest.Framework.Persistence.csproj.CopyComplete
+C:\Quest_Dev\Quest.Framework.Persistence\obj\Debug\Quest.Framework.Persistence.dll
+C:\Quest_Dev\Quest.Framework.Persistence\obj\Debug\Quest.Framework.Persistence.pdb

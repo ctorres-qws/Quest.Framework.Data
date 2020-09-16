@@ -1,0 +1,1 @@
+height=200&width=102&hwidth=100&ih1=60&ih2=200&ih3=0

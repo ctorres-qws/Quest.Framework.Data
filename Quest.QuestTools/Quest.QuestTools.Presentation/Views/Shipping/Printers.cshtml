@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Printers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Newtonsoft.Json
+@using Quest.QuestTools.Presentation.Models
+@using Quest.Framework.Data.Entities
+@model PrintersViewModel
+<style>
+    .toggle.ios, .toggle-on.ios, .toggle-off.ios {
+        border-radius: 20px;
+    }
+
+        .toggle.ios .toggle-handle {
+            border-radius: 20px;
+        }
+
+    .printerImg {
+        width: 26rem;
+        margin: auto;
+        transition: filter 1s;
+    }
+
+    .toggle {
+        margin: auto;
+        border: solid 1px darkgray;
+        cursor: pointer;
+    }
+
+        .toggle:hover {
+            border-color: #808080;
+        }
+
+    .toggle-btn-selector span {
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    .toggle-btn-selector span {
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    .toggle-group label {
+        font-size: 12px;
+    }
+
+    .toggle.btn {
+        min-height: 25px;
+    }
+
+    .btn-toggle-on {
+        color: #fff;
+        background-color: #15a9df;
+        border-color: #808080;
+    }
+
+        .btn-toggle-on:hover {
+            color: #fff;
+            font-weight: bold;
+        }
+
+    .btn-toggle-off {
+        color: #000;
+        background-color: #ccc !important;
+        border-color: #808080
+    }
+
+        .btn-toggle-off:hover {
+            color: #fff;
+        }
+
+    .printerTitle {
+        width: 5rem;
+        margin: auto;
+        font-size: 22px;
+    }
+
+    .imgPrintEnable {
+        filter: none;
+    }
+
+    .imgPrintDisabled {
+        filter: blur(1px) grayscale(1) opacity(0.3);
+    }
+</style>
+<script>
+    var pageLog = "";
+    function initializePage() {
+        $('#toggle_1').change(function () {
+            activatePrinter(1, $('#toggle_1').is(":checked"))
+        });
+        $('#toggle_2').change(function () {
+            activatePrinter(2, $('#toggle_2').is(":checked"))
+        });
+        $('#toggle_3').change(function () {
+            activatePrinter(3, $('#toggle_3').is(":checked"))
+        });
+    }
+
+    function activatePrinter(line, active) {
+        if (active) {
+            $("#printImg_" + line).removeClass("imgPrintDisabled");
+            $("#printImg_" + line).addClass("imgPrintEnable");
+        }
+        else {
+            $("#printImg_" + line).removeClass("imgPrintEnable");
+            $("#printImg_" + line).addClass("imgPrintDisabled");
+        }
+        var printerStatus = {
+            GlazingLine: line,
+            Active: active
+        };
+        performAjaxRequest(
+            "@Url.Action("ActivatePrinter")", //url
+            printerStatus, 					//params
+            function (data) {							//function in case of success
+                debugger;
+                pageLog = data;
+
+            },
+            function (msg) {							//function in case of failure
+                pageLog = msg;
+            },
+            function (msg) {							//function which will be executed
+                pageLog = msg;
+            });
+    }
+    function validateSession() {
+        var userData = JSON.parse($("#userData").text())
+        if (userData == undefined) {
+            showLogInModal();
+            $("#btnSignIn").text("Sign In");
+        }
+        else {
+            $("#btnSignIn").text("Sign Out");
+        }
+    }
+</script>
+<div id="userData" style="display:none">@JsonConvert.SerializeObject(Model.User)</div>
+<div>
+    <div class="row" style="margin-top: 3rem;margin-bottom: 3rem;">
+        @foreach (Printer printer in Model.Printers)
+        {
+            <div class="col">
+                <div class="row">
+                    <div class="printerTitle"><label>Line @printer.GlazingLine</label></div>
+                </div>
+                <div class="row">
+                    <img id="@string.Format("printImg_{0}", printer.GlazingLine)" class="printerImg @(printer.Active ? "imgPrintEnable" : "imgPrintDisabled")" src="~/images/GLprinter.png" />
+                </div>
+                <div class="row toggle-btn-selector">
+                    <input id="@string.Format("toggle_{0}", printer.GlazingLine)" type="checkbox" data-style="ios" @(printer.Active ? "checked" : "" ) data-toggle="toggle" data-on="On" data-off="Off" data-onstyle="toggle-on" data-offstyle="toggle-off" data-width="75" data-height="20">
+
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
